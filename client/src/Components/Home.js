@@ -1,9 +1,9 @@
 import React from 'react';
-import profile from './MyPortfolioPic.jpg';
-import emailButton from './footerlink-email(1).png';
-import facebookButton from './footerlink-facebook(1).png';
-import instaButton from './footerlink-instagram(1).png';
-import phoneButton from './footerlink-phone(1).png';
+import profile from '../Images/MyPortfolioPic.jpg';
+import emailButton from '../Images/footerlink-email(1).png';
+import facebookButton from '../Images/footerlink-facebook(1).png';
+import instaButton from '../Images/footerlink-instagram(1).png';
+import phoneButton from '../Images/footerlink-phone(1).png';
 
 
 class Home extends React.Component {
@@ -42,10 +42,10 @@ class Home extends React.Component {
                     <h2 id='profileTitle' id='profTextColor'>Full Stack Web Developer</h2>
                     <div id='socialMediaImgs'>
                         {this.state.modalDisplayed === true ? <EmailModal handleCancel={this.cancelHandler} /> : null}
-                        <a onClick={this.clickHandler} href=''><img id='socialButtons' src={emailButton} alt='Email Button' /></a>
-                        <a href='https://www.facebook.com/ChristianRDow' target="_blank"><img id='socialButtons' src={facebookButton} alt='Facebook Button' /></a>
-                        <a href='https://www.instagram.com/802blueeyes/?hl=en' target="_blank"><img id='socialButtons' src={instaButton} alt='Instagram Button' /></a>
-                        <a href='https://www.linkedin.com/in/christian-dow' target="_blank"><img id='socialButtons' src={phoneButton} alt='Phone Button' /></a>
+                        <a onClick={this.clickHandler} href=''><img className='socialButtons' src={emailButton} alt='Email Button' /></a>
+                        <a href='https://www.facebook.com/ChristianRDow' target="_blank"><img className='socialButtons' src={facebookButton} alt='Facebook Button' /></a>
+                        <a href='https://www.instagram.com/802blueeyes/?hl=en' target="_blank"><img className='socialButtons' src={instaButton} alt='Instagram Button' /></a>
+                        <a href='https://www.linkedin.com/in/christian-dow' target="_blank"><img className='socialButtons' src={phoneButton} alt='Phone Button' /></a>
                     </div>
                 </div>
             </div>

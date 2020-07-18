@@ -1,8 +1,8 @@
 import React from 'react'
-import remockSS from './Remock_Screenshot.png';
-import ticTacToeSS from './Tic Tac Toe_Screenshot.png';
-import yelpSS from './Yelpington_Screenshot.png';
-import zorkingtonSS from './Zorkington_ScreenShot (2).png';
+import remockSS from '../Images/Remock_Screenshot.png';
+import ticTacToeSS from '../Images/Tic Tac Toe_Screenshot.png';
+import yelpSS from '../Images/Yelpington_Screenshot.png';
+import zorkingtonSS from '../Images/Zorkington_ScreenShot (2).png';
 
 function Projects() {
     return (
