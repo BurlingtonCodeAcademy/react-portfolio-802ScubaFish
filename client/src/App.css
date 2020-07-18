@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: whitesmoke;
+}
+
+#root {
+    height: 100vh;
+}
+
+#screenSize {
+    height: 100%;
+}
+
+/* Navigation Bar Styling Here */
+#navBar {
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    align-items: center;
+    width: 100%;
+    height: 08%;
+}
+
+#lastName{
+    color: rgb(49, 204, 189);
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+#lastName:hover{
+    color: whitesmoke;
+    text-decoration: none;
+    transition-duration: 0.4s
+}
+
+.navBarHomeText{
+    color: rgb(49, 204, 189);
+    text-decoration: none;
+    font-size: 150%;
+    transition-duration: 0.4s
+}
+
+.navBarHomeText:hover{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.navBarText {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 150%;
+    transition-duration: 0.4s
+}
+
+.navBarText:hover {
+    color: rgb(49, 204, 189);
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#alignLeft {
+    padding-right: 50%;
+    padding-left: 3%;
+    width: 25%;
+}
+
+#alignRight {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+
+}
+
+#turqColor {
+    color: rgb(49, 204, 189);
+}
+
+/* Home Page Styling Here */
+/* Might use this background image later instead. Saving URL here.. https://images2.alphacoders.com/840/thumb-1920-840511.jpg */
+#background {
+    background-image: url('https://images.wallpaperscraft.com/image/ship_diver_fish_160008_2048x1152.jpg');
+    height: 92%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#mainContainer {
+    padding-top: 05%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profileImg {
+    width: 16vw;
+    height: 45vh;
+    border-radius: 50%;
+    border: 3px solid whitesmoke
+}
+
+#profTextColor {
+    color: whitesmoke;
+    transition-duration: 0.4s
+}
+
+#profTextColor:hover {
+    color: rgb(49, 204, 189);
+}
+#socialMediaImgs {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+#socialButtons {
+    display: flex;
+    height: 5vh;
+}
+
+#emailDisplay {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 21%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    text-shadow:
+		-1px -1px 0 gray,
+		1px -1px 0 gray,
+		-1px 1px 0 rgb(20, 20, 20),
+		1px 1px 0 rgb(20, 20, 20);
+}
+
+#modalButton{
+    background-color:rgb(235, 138, 11); /* Green */
+    border: none;
+    color: whitesmoke;
+    padding: 2px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#modalButton:hover{
+    background-color: rgb(49, 204, 189); /* Green */
+    border: none;
+    color: rgb(80, 80, 80);
+    padding: 5px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#noMargin {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* About Page Styling Here */
+
+#flexContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#profImageContainer {
+    display: flex;
+    justify-content: center;
+    margin-right: 10%;
+    margin-top: 07%;
+
+}
+
+#profileImgTwo {
+    height: 60vh;
+    border-radius: 5%;
+    border: 2px solid rgb(49, 204, 189);
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 25px;
+}
+
+#profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin-top: 07%;
+    font-size: 110%;
+}
+
+#subContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+
+#subContainerTitles {
+    text-decoration: underline;
+    color: rgb(49, 204, 189);
+}
+
+#bottomRow {
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    margin-top: ;
+}
+
+/* Projects Page Styling Here */
+
+#projFlexContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto
+}
+
+#titleContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#rowOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.halfWidth {
+    width: 50%
+}
+
+.pushImg {
+    margin-right: 5%;
+}
+
+#rowTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    width: 100%;
+}
+
+.projectLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.projectImg {
+    width: 100%;
+    height: 28vh;
+    border-radius: 5%;
+    border: 2px solid rgb(49, 204, 189);
+    box-shadow: 10px 10px 5px #ccc;
+    border-radius: 15px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Experience Page Styling */
+#iFrame{
+    display: flex;
+    width: 100%;
+    height:79%;
+}
+#center{
+    display: flex;
+    justify-content: center;
+}
