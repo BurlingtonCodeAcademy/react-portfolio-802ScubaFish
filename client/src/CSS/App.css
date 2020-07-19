@@ -354,7 +354,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vw;
+    height: 45vw;
+}
+
+#galleryHead{
+    margin-bottom: 4%;
 }
 
 #rotating-img-carousel {
@@ -362,7 +366,7 @@ body {
     justify-content: space-around;
     align-items: center;
     display: flex;
-    width: 80vw;
+    width: 100vw;
 }
 
 #img-carousel {
@@ -373,52 +377,52 @@ body {
 
 .lg-img {
     position: absolute;
-    top: 0;
-    left: 30%;
-    width: auto;
-    height: 75%;
+    top: 0vh;
+    left: 65vh;
+    width:35vw;
+    height: auto;
     z-index: 10;
     border: 2px solid black
 }
 
 .sm-img-left {
     width: auto;
-    height: 50%;
-    top: 13%;
+    height: 30vh;
+    top: 10vh;
     z-index: 5;
     position: absolute;
-    filter: blur(1px);
-    left: 125px;
+    filter: blur(2px);
+    left: 25vh;
     border: 2px solid black
 }
 
 .sm-img-right {
     width: auto;
-    height: 50%;
-    top: 13%;
+    height: 30vh;
+    top: 10vh;
     z-index: 5;
     position: absolute;
-    filter: blur(1px);
-    right: 125px;
+    filter: blur(2px);
+    right: 25vh;
     border: 2px solid black
 }
 
 .xs-img-left {
     width: auto;
-    height: 30%;
-    top: 22%;
+    height: 20vh;
+    top: 15vh;
     position: absolute;
-    filter: blur(2px);
+    filter: blur(3px);
     left: 0;
     border: 2px solid black
 }
 
 .xs-img-right {
     width: auto;
-    height: 30%;
-    top: 22%;
+    height: 20vh;
+    top: 15vh;
     position: absolute;
-    filter: blur(2px);
+    filter: blur(3px);
     right: 0;
     border: 2px solid black
 }
