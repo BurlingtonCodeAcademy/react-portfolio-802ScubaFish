@@ -1,11 +1,14 @@
 import React from 'react';
 import '../CSS/App.css';
-import { BrowserRouter, Route, Link, Switch, } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import NavBar from './NavBar';
 import About from './About';
 import Projects from './Projects';
-import Experience from './Experience'
+import Experience from './Experience';
+import Gallery from './Gallery'
+
+
 
 class App extends React.Component {
 
@@ -19,6 +22,7 @@ class App extends React.Component {
           <Route path='/about' component={About} />
           <Route path='/projects'component={Projects} />
           <Route path='/experience'component={Experience} />
+          <Route path='/gallery' component={Gallery} />
         </Switch>
 
       </div>

@@ -14,6 +14,7 @@ function NavBar() {
                     <Link className='navBarText' to='/about'>About</Link>
                     <Link className='navBarText' to='/projects'>Projects</Link>
                     <Link className='navBarText' to='/experience'>Experience</Link>
+                    <Link className='navBarText' to='/gallery'>Gallery</Link>
                 </div>
             </nav>
     )
