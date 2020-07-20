@@ -6,7 +6,7 @@ const public = path.resolve('./client/build');
 
 app.use(express.static(public));
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(public + '/index.html')
 })
 
