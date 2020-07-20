@@ -67,7 +67,7 @@ function Gallery() {
 
     return (
         <div className="App">
-            <h3 id='galleryHead'>A small Gallery built with <span id='turqColor'>React</span> including some of my Personal Images that have been distrubuted by companies such as Subaru of America*</h3>
+            <h3 id='galleryHead'>A simple Gallery built using <span id='turqColor'>React</span> including some of my Personal Images that have been distrubuted by companies such as Subaru of America*</h3>
             <div id="rotating-img-carousel">
 
                 <div id="img-carousel">
