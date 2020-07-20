@@ -56,6 +56,7 @@ class Home extends React.Component {
 function EmailModal(props) {
     return (
         <div id='emailDisplay'>
+            
             <h1>My Personal Email Adress is : CHRISTIANRDOW@GMAIL.COM </h1>
             <h2>Feel free to contact me at any time.</h2>
             <h3>I look forward to speaking with you!</h3>
