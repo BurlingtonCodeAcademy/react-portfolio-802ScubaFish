@@ -111,7 +111,7 @@ body {
     border: 3px solid rgb(49, 204, 189);
 }
 
-#profTextColor {
+.profTextColor {
     color: whitesmoke;
     transition-duration: 0.4s
 }

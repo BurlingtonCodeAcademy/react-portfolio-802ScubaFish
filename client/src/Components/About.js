@@ -6,7 +6,7 @@ function About() {
 
         <div id='flexContainer'>
             <div id='profImageContainer'>
-                <img id='profileImgTwo' src={profileImg} />
+                <img id='profileImgTwo' src={profileImg} alt='profile' />
             </div>
             <div id='profileContainer'>
                 <h1>Full Stack <span id='turqColor'>Web Developer</span></h1>

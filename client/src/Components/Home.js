@@ -30,7 +30,6 @@ class Home extends React.Component {
         }
     }
 
-
     render() {
 
         return (
@@ -38,8 +37,8 @@ class Home extends React.Component {
             <div id='background'>
                 <div id='mainContainer'>
                     <img id='profileImg' src={profile} alt="My Profile Pic" />
-                    <h1 id='profTextColor'>I'm Christian</h1>
-                    <h2 id='profileTitle' id='profTextColor'>Full Stack Web Developer</h2>
+                    <h1 className='profTextColor'>I'm Christian</h1>
+                    <h2 id='profileTitle' className='profTextColor'>Full Stack Web Developer</h2>
                     <div id='socialMediaImgs'>
                         {this.state.modalDisplayed === true ? <EmailModal handleCancel={this.cancelHandler} /> : null}
                         <a onClick={this.clickHandler} href=''><img className='socialButtons' src={emailButton} alt='Email Button' /></a>
@@ -56,7 +55,7 @@ class Home extends React.Component {
 function EmailModal(props) {
     return (
         <div id='emailDisplay'>
-            
+
             <h1>My Personal Email Adress is : CHRISTIANRDOW@GMAIL.COM </h1>
             <h2>Feel free to contact me at any time.</h2>
             <h3>I look forward to speaking with you!</h3>
