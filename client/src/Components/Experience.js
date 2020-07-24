@@ -1,9 +1,13 @@
 import React from 'react'
 
+// Sets Up The Experience Page Component
 function Experience() {
     return (
        <>
+       {/* Main Page Title */}
        <h3 id='center'>This Resume is a place holder + Work in Progress</h3>
+
+       {/* Sets up an iFrame or 'Window' To My Personal Resume Google Document */}
         <iframe id='iFrame'
         title='Christian Dow Resume'
         src="https://docs.google.com/document/d/1NekugzOhVjjUVbbHl1Cio41FwBkXqGeTHlX78Tg4-Vs/edit"
@@ -11,5 +15,5 @@ function Experience() {
        </>
     )
 }
-
+// Exports The Entire Component To Be Imported in App.js
 export default Experience;

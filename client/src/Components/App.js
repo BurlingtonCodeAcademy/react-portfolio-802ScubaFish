@@ -9,7 +9,7 @@ import Experience from './Experience';
 import Gallery from './Gallery'
 
 
-
+// This is where the main application will be rendered from
 class App extends React.Component {
 
   render() {
@@ -17,6 +17,8 @@ class App extends React.Component {
     return (
       <div id='screenSize'>
         <NavBar />
+
+        {/* Setting up the paths to each of the components */}
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />

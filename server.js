@@ -11,3 +11,6 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => console.log(`Portfolio Server running on port ${port}!`))
+
+
+// This page is just setting up a basic express server - - - - - - - - - - - - -
