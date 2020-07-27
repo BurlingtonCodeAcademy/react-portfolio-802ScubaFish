@@ -20,12 +20,12 @@ function Projects() {
             <div id='rowOne'>
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={zorkingtonSS} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='https://github.com/802ScubaFish/zorkington-gabe-christian' target="_blank"><h3 class='center'>Zorkington - Pokemon Edition</h3></a>
+                    <a className='projectLinks' href='https://github.com/802ScubaFish/zorkington-gabe-christian'><h3 class='center'>Zorkington - Pokemon Edition</h3></a>
                 </div>
             {/* Yelpington Project Here */}
                 <div className='halfWidth'>
                     <img className='projectImg' src={yelpSS} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='https://github.com/802ScubaFish/yelpington-802ScubaFish' target="_blank"><h3 class='center'>Yelpington</h3></a>
+                    <a className='projectLinks' href='https://github.com/802ScubaFish/yelpington-802ScubaFish'><h3 class='center'>Yelpington</h3></a>
                 </div>
             </div>
 
@@ -34,12 +34,12 @@ function Projects() {
             <div id='rowTwo'>
                 <div className='halfWidth pushImg'>
                 <img className='projectImg' src={remockSS} alt="Project Screen Shot" />
-                <a className='projectLinks' href= 'https://github.com/802ScubaFish/remock-802ScubaFish' target="_blank"><h3 class='center'>Remok Website</h3></a>
+                <a className='projectLinks' href= 'https://github.com/802ScubaFish/remock-802ScubaFish'><h3 class='center'>Remok Website</h3></a>
                 </div>
             {/* Tic Tac Toe Project Here */}
                 <div className='halfWidth'>
                 <img className='projectImg' src={ticTacToeSS} alt="Project Screen Shot" />
-                <a className='projectLinks' href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-sean-christian' target="_blank"><h3 class='center'>Tic Tac Toe</h3></a>
+                <a className='projectLinks' href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-sean-christian'><h3 class='center'>Tic Tac Toe</h3></a>
                 </div>
             </div>
         </div>

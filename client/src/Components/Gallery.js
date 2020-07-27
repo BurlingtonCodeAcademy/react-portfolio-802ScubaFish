@@ -80,6 +80,7 @@ function Gallery() {
 
                 {/* Smallest Left Side Image */}
                 <div id="img-carousel">
+                    
                     <img
                         className="xs-img-left"
                         // If we are at image array length -2 then we display the image currently at array index 0(start of the array),
@@ -100,7 +101,7 @@ function Gallery() {
                     />
 
                     {/* The Largest or Featured Center Image On The Page */}
-                    <img className="lg-img" src={imgArray[index]} alt="image" />
+                    <img className="lg-img" src={imgArray[index]} alt="lg-img" />
 
                     {/* The Medium Sized Middle-Right Image */}
                     <img

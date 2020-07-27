@@ -1,3 +1,4 @@
+/* Global Styling */
 body {
     margin: 0;
     padding: 0;
@@ -20,6 +21,7 @@ body {
     align-items: center;
     width: 100%;
     height: 08%;
+    font-size: 120%;
 }
 
 #lastName {
@@ -77,6 +79,34 @@ body {
     color: rgb(49, 204, 189);
 }
 
+/* Navagation Bar Mobile Styling Here
+@media only screen and (max-width: 000px) allows 
+the screen settings to be styled for different sizes. In
+the example below it will set these styles at 750px or smaller  */
+@media only screen and (max-width: 750px) {
+    #navBar {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 20%;
+      font-size: 90%;
+    }
+    #alignRight {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #alignLeft{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding-left: 0%;
+        padding-right: 0%;
+      }
+  }
+  
+
 /* Home Page Styling Here */
 /* Might use this background image later instead. Saving URL here.. https://images2.alphacoders.com/840/thumb-1920-840511.jpg */
 #background {
@@ -87,6 +117,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 
 #mainContainer {
     padding-top: 05%;
@@ -116,7 +147,7 @@ body {
     transition-duration: 0.4s
 }
 
-#profTextColor:hover {
+.profTextColor:hover {
     color: rgb(49, 204, 189);
 }
 
@@ -125,6 +156,19 @@ body {
     width: 15vw;
     justify-content: space-between;
     margin-top: 1%;
+}
+
+#eMButton {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+#eMButton:hover {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer
 }
 
 .socialButtons {
@@ -187,9 +231,44 @@ body {
     padding: 0;
 }
 
+/* Home Page Mobile Styling Here */
+
+@media only screen and (max-width: 750px) {
+    
+    #socialMediaImgs {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 5%;
+        width: 95%;
+    }
+
+    #emailDisplay {
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 45%;
+        font-size: 75%;
+        transform: translate(-50%, -50%);
+        color: whitesmoke;
+        text-shadow:
+            -1px -1px 0 gray,
+            1px -1px 0 gray,
+            -1px 1px 0 rgb(20, 20, 20),
+            1px 1px 0 rgb(20, 20, 20);
+    }
+    #profileImg {
+        width: auto;
+        height: 45vh;
+        border-radius: 50%;
+        border: 3px solid whitesmoke;
+        transition-duration: 0.4s;
+    }
+    
+  }
+
 
 /* About Page Styling Here */
-
 #flexContainer {
     display: flex;
     justify-content: center;
@@ -213,7 +292,7 @@ body {
 }
 
 #profileImgTwo:hover {
-    height: 70vh;
+    transform: scale(1.1, 1.1);
     border-radius: 5%;
     border: 2px solid black;
     box-shadow: 10px 10px 5px #ccc;
@@ -236,9 +315,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 53%;
+    transform: scale(1.1,1.1);
     margin-top: 07%;
-    font-size: 115%;
+  
 }
 
 #subContainer {
@@ -259,8 +338,23 @@ body {
     justify-content: center;
 }
 
-/* Projects Page Styling Here */
 
+/* About Page Media Screen Styling Here*/
+
+@media only screen and (max-width: 750px) {
+    #flexContainer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #subContainer {
+        flex-direction: column;
+    }
+  }
+
+
+/* Projects Page Styling Here */
 #projFlexContainer {
     display: flex;
     justify-content: center;
@@ -335,18 +429,62 @@ body {
     justify-content: center;
 }
 
+/* Projects Page Mobile Styling Here */
+@media only screen and (max-width: 750px) {
+    
+    #rowOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2%;
+        width: 100%;
+        font-size: 90%;
+    }
+
+    #rowTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0%;
+        width: 100%;
+        font-size: 90%;
+    }
+
+    .projectImg {
+        display: flex;
+        width: 100%;
+        height: 28vh;
+        border-radius: 5%;
+        border: 2px solid rgb(49, 204, 189);
+        box-shadow: 10px 10px 5px #ccc;
+        border-radius: 15px;
+    }
+
+    .halfWidth {
+        width: 100%
+    }
+    
+    .pushImg {
+        margin-right: 0%;
+    }
+    
+  }
+
 
 /* Experience Page Styling */
 #iFrame {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 79%;
+    height: 84%;
 }
 
 #center {
     display: flex;
     justify-content: center;
 }
+
 
 /* Gallery Page */
 .App {
@@ -358,7 +496,7 @@ body {
     height: 45vw;
 }
 
-#galleryHead{
+#galleryHead {
     margin-bottom: 4%;
 }
 
@@ -380,7 +518,7 @@ body {
     position: absolute;
     top: 0vh;
     left: 65vh;
-    width:35vw;
+    width: 35vw;
     height: auto;
     z-index: 10;
     border: 2px solid black
@@ -428,6 +566,89 @@ body {
     border: 2px solid black
 }
 
-#nav-buttons{
-    display:flex;
+#nav-buttons {
+    display: flex;
 }
+
+/* Gallery Mobile Friendly Version Here */
+
+@media only screen and (max-width: 750px) {
+    
+    .App{
+        transform: scale(.5);
+    }
+
+    #galleryHead {
+        top:525%;
+        position: absolute;
+        font-size: 150%;
+    }
+
+    #rotating-img-carousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        width: 100vw;
+    }
+    
+    .lg-img {
+        position: absolute;
+        top: 50vh;
+        left: -12vh;
+        width: 150vw;
+        height: auto;
+        z-index: 10;
+        border: 2px solid black
+    }
+
+    .sm-img-left {
+        width: auto;
+        height: 30vh;
+        top: 30vh;
+        z-index: 5;
+        position: absolute;
+        filter: blur(2px);
+        left: 1vh;
+        border: 2px solid black
+    }
+    
+    .sm-img-right {
+        width: auto;
+        height: 30vh;
+        top: 90vh;
+        z-index: 5;
+        position: absolute;
+        filter: blur(2px);
+        left: 1vh;
+        border: 2px solid black
+    }
+    
+    .xs-img-left {
+        width: auto;
+        height: 20vh;
+        top: 15vh;
+        position: absolute;
+        filter: blur(3px);
+        left: 10vh;
+        border: 2px solid black
+    }
+    
+    .xs-img-right {
+        width: auto;
+        height: 20vh;
+        top: 110vh;
+        position: absolute;
+        filter: blur(3px);
+        left: 10vh;
+        border: 2px solid black
+    }
+
+    #nav-buttons {
+        display: flex;
+        top:130vh;
+        position: absolute;
+    }
+
+  }

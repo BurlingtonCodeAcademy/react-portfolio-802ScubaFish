@@ -5,7 +5,7 @@ function Experience() {
     return (
        <>
        {/* Main Page Title */}
-       <h3 id='center'>This Resume is a place holder + Work in Progress</h3>
+       <h3 id='center'>This Resume is a Work in Progress. Mobile Friendly Version on the Way!</h3>
 
        {/* Sets up an iFrame or 'Window' To My Personal Resume Google Document */}
         <iframe id='iFrame'

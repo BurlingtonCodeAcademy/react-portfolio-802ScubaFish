@@ -49,10 +49,10 @@ class Home extends React.Component {
                     {/* Links To My Social Media Accounts */}
                     <div id='socialMediaImgs'>
                         {this.state.modalDisplayed === true ? <EmailModal handleCancel={this.cancelHandler} /> : null}
-                        <a onClick={this.clickHandler} href=''><img className='socialButtons' src={emailButton} alt='Email Button' /></a>
-                        <a href='https://www.facebook.com/ChristianRDow' target="_blank"><img className='socialButtons' src={facebookButton} alt='Facebook Button' /></a>
-                        <a href='https://www.instagram.com/802blueeyes/?hl=en' target="_blank"><img className='socialButtons' src={instaButton} alt='Instagram Button' /></a>
-                        <a href='https://www.linkedin.com/in/christian-dow' target="_blank"><img className='socialButtons' src={phoneButton} alt='Phone Button' /></a>
+                        <button id="eMButton" onClick={this.clickHandler}><img className='socialButtons' src={emailButton} alt='Email Button' /></button>
+                        <a href='https://www.facebook.com/ChristianRDow'><img className='socialButtons' src={facebookButton} alt='Facebook Button' /></a>
+                        <a href='https://www.instagram.com/802blueeyes/?hl=en'><img className='socialButtons' src={instaButton} alt='Instagram Button' /></a>
+                        <a href='https://www.linkedin.com/in/christian-dow'><img className='socialButtons' src={phoneButton} alt='Phone Button' /></a>
                     </div>
                 </div>
             </div>
