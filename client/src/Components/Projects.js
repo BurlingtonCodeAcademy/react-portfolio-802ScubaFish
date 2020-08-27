@@ -27,7 +27,7 @@ function Projects() {
             {/* The Fox Game Project Here */}
                 <div className='halfWidth'>
                     <img className='projectImg' src={foxGame} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='https://github.com/802ScubaFish/Fox-Game'><h3 class='center'>The Fox Game!</h3><h5 class='center'>Similar to The Classic 'Tamagotchi'</h5></a>
+                    <a className='projectLinks' href='https://enigmatic-savannah-53571.herokuapp.com/'><h3 class='center'>The Fox Game!</h3><h5 class='center'>Similar to The Classic 'Tamagotchi'</h5></a>
                 </div>
             </div>
 
