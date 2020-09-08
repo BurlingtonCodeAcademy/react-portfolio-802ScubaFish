@@ -95,7 +95,7 @@ the example below it will set these styles at 750px or smaller  */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 5%
+        padding-top: 4%;
       }
 
       #alignLeft{
@@ -355,8 +355,8 @@ the example below it will set these styles at 750px or smaller  */
     #profImageContainer {
         margin-right: 0;
     }
-  }
 
+}
 
 /* Projects Page Styling Here */
 #projFlexContainer {
