@@ -88,7 +88,7 @@ the example below it will set these styles at 750px or smaller  */
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 30%;
+      height: 32%;
       font-size: 90%;
     }
     #alignRight {
@@ -482,7 +482,7 @@ the example below it will set these styles at 750px or smaller  */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 45vw;
+    height: 90vh;
 }
 
 #galleryHead {
@@ -565,10 +565,11 @@ the example below it will set these styles at 750px or smaller  */
     
     .App{
         transform: scale(.5);
+        height:70vh;
     }
 
     #galleryHead {
-        top:600%;
+        top:-40%;
         position: absolute;
         font-size: 150%;
     }
@@ -584,8 +585,8 @@ the example below it will set these styles at 750px or smaller  */
     
     .lg-img {
         position: absolute;
-        top: 50vh;
-        left: -12vh;
+        top: 40vh;
+        left: -10vh;
         width: 150vw;
         height: auto;
         z-index: 10;
@@ -595,48 +596,48 @@ the example below it will set these styles at 750px or smaller  */
     .sm-img-left {
         width: auto;
         height: 30vh;
-        top: 30vh;
+        top: 22vh;
         z-index: 5;
         position: absolute;
         filter: blur(2px);
-        left: 7vh;
+        left: 3vh;
         border: 2px solid black
     }
     
     .sm-img-right {
         width: auto;
         height: 30vh;
-        top: 105vh;
+        top: 85vh;
         z-index: 5;
         position: absolute;
         filter: blur(2px);
-        left: 7vh;
+        left: 3vh;
         border: 2px solid black
     }
     
     .xs-img-left {
         width: auto;
         height: 20vh;
-        top: 15vh;
+        top: 6vh;
         position: absolute;
         filter: blur(3px);
-        left: 15vh;
+        left: 10vh;
         border: 2px solid black
     }
     
     .xs-img-right {
         width: auto;
         height: 20vh;
-        top: 125vh;
+        top: 110vh;
         position: absolute;
         filter: blur(3px);
-        left: 15vh;
+        left: 10vh;
         border: 2px solid black
     }
 
     #nav-buttons {
         display: flex;
-        top:175vh;
+        top:150vh;
         position: absolute;
     }
 
