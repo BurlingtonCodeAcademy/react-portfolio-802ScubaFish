@@ -88,13 +88,14 @@ the example below it will set these styles at 750px or smaller  */
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 20%;
+      height: 30%;
       font-size: 90%;
     }
     #alignRight {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 5%
       }
 
       #alignLeft{
@@ -247,10 +248,11 @@ the example below it will set these styles at 750px or smaller  */
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 45%;
+        top: 50%;
         font-size: 75%;
         transform: translate(-50%, -50%);
         color: whitesmoke;
+        background-color: rgba(0, 0, 0, 0.808);
         text-shadow:
             -1px -1px 0 gray,
             1px -1px 0 gray,
@@ -284,7 +286,6 @@ the example below it will set these styles at 750px or smaller  */
 
 #profileImgTwo {
     height: 60vh;
-    border-radius: 5%;
     border: 2px solid rgb(49, 204, 189);
     box-shadow: 10px 10px 5px #ccc;
     border-radius: 25px;
@@ -293,7 +294,6 @@ the example below it will set these styles at 750px or smaller  */
 
 #profileImgTwo:hover {
     transform: scale(1.1, 1.1);
-    border-radius: 5%;
     border: 2px solid black;
     box-shadow: 10px 10px 5px #ccc;
     border-radius: 25px;
@@ -351,6 +351,10 @@ the example below it will set these styles at 750px or smaller  */
     #subContainer {
         flex-direction: column;
     }
+    
+    #profImageContainer {
+        margin-right: 0;
+    }
   }
 
 
@@ -372,8 +376,9 @@ the example below it will set these styles at 750px or smaller  */
 
 .rows {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 2%;
     width: 100%;
 }
@@ -382,9 +387,7 @@ the example below it will set these styles at 750px or smaller  */
     width: 50%
 }
 
-.pushImg {
-    margin-right: 5%;
-}
+
 
 #green {
     color: green
@@ -428,20 +431,10 @@ the example below it will set these styles at 750px or smaller  */
 /* Projects Page Mobile Styling Here */
 @media only screen and (max-width: 750px) {
     
-    #rowOne {
+    #rows {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         margin-top: 2%;
-        width: 100%;
-        font-size: 90%;
-    }
-
-    #rowTwo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 0%;
         width: 100%;
         font-size: 90%;
     }
@@ -575,7 +568,7 @@ the example below it will set these styles at 750px or smaller  */
     }
 
     #galleryHead {
-        top:525%;
+        top:590%;
         position: absolute;
         font-size: 150%;
     }
@@ -606,18 +599,18 @@ the example below it will set these styles at 750px or smaller  */
         z-index: 5;
         position: absolute;
         filter: blur(2px);
-        left: 1vh;
+        left: 7vh;
         border: 2px solid black
     }
     
     .sm-img-right {
         width: auto;
         height: 30vh;
-        top: 90vh;
+        top: 105vh;
         z-index: 5;
         position: absolute;
         filter: blur(2px);
-        left: 1vh;
+        left: 7vh;
         border: 2px solid black
     }
     
@@ -627,23 +620,23 @@ the example below it will set these styles at 750px or smaller  */
         top: 15vh;
         position: absolute;
         filter: blur(3px);
-        left: 10vh;
+        left: 15vh;
         border: 2px solid black
     }
     
     .xs-img-right {
         width: auto;
         height: 20vh;
-        top: 110vh;
+        top: 125vh;
         position: absolute;
         filter: blur(3px);
-        left: 10vh;
+        left: 15vh;
         border: 2px solid black
     }
 
     #nav-buttons {
         display: flex;
-        top:130vh;
+        top:140vh;
         position: absolute;
     }
 
