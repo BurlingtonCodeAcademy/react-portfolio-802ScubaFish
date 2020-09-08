@@ -568,7 +568,7 @@ the example below it will set these styles at 750px or smaller  */
     }
 
     #galleryHead {
-        top:590%;
+        top:600%;
         position: absolute;
         font-size: 150%;
     }
@@ -636,7 +636,7 @@ the example below it will set these styles at 750px or smaller  */
 
     #nav-buttons {
         display: flex;
-        top:140vh;
+        top:175vh;
         position: absolute;
     }
 
