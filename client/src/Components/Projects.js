@@ -15,7 +15,7 @@ function Projects() {
             <h1>Current <span id='turqColor'> Projects</span></h1>
 
             {/* Main Page Sub-Title */}
-            <h5>*If Not Currently Deployed than Linked to Github Repositories</h5>
+            <h5>*If Not Currently Deployed Links Will Lead To Github Repositories</h5>
 
             {/* The Top Row */}
             {/* Find Your Fun! Project Here */}
