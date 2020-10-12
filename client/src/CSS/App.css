@@ -390,7 +390,21 @@ the example below it will set these styles at 750px or smaller  */
 
 
 #green {
-    color: green
+    color: green;
+    transition-duration: 0.4s;
+}
+
+#green:hover {
+    color: black;
+}
+
+#hubspotOrange {
+    color: #FF7A59;
+    transition-duration: 0.4s;
+}
+
+#hubspotOrange:hover {
+    color:black;
 }
 
 .projectLinks {
@@ -642,3 +656,5 @@ the example below it will set these styles at 750px or smaller  */
     }
 
   }
+
+  
