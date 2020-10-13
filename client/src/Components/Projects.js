@@ -29,7 +29,7 @@ function Projects() {
                 {/* HubSpot CMS DEV Practicum Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={cmsDevPracticum} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='http://hubspot-developers-16tv3r8-8374954.hs-sites.com/my-cool-practicum' target="_blank" rel="noopener noreferrer"><h3 class='center'>My HubSpot CMS Developer Practicum Submission</h3><h5 class='center'>A Site Built Following Hubspot's CMS Practicum Standards to Prove My Knowledge of Their CMS Platform</h5><h5 class='center'  id='hubspotOrange'>Graded by Hubspot and Passed after first submission in September 2020. See the Certification on my LinkedIn!</h5></a>
+                    <a className='projectLinks' href='http://hubspot-developers-16tv3r8-8374954.hs-sites.com/my-cool-practicum' target="_blank" rel="noopener noreferrer"><h3 class='center'>My HubSpot CMS Developer Practicum Submission</h3><h5 class='center'>A Site Built Following Hubspot's CMS Practicum Standards to Prove My Knowledge of Their CMS Platform</h5><h5 class='center'  id='hubspotOrange'>Graded by Hubspot and Passed after first submission September 2020. See the Certification on my LinkedIn!</h5></a>
                 </div>
 
             </div>
