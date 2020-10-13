@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import remockSS from '../Images/Remock_Screenshot.png';
 import ticTacToeSS from '../Images/Tic Tac Toe_Screenshot.png';
 import yelpSS from '../Images/Yelpington_Screenshot.png';
@@ -7,6 +8,7 @@ import findYourFun from '../Images/FindYourFun.png';
 import foxGame from '../Images/TheFoxGame.png';
 import myAquarium from '../Images/my aquarium lp screenshot.png';
 import cmsDevPracticum from '../Images/cool cat practicum screenshot.png';
+import beeswaxSS from '../Images/Beeswax Screenshot.png';
 
 // This Handles The Projects Page Component
 function Projects() {
@@ -20,6 +22,17 @@ function Projects() {
             <h5>*If Not Currently Deployed Links Will Lead To Github Repositories</h5>
 
             {/* The Top Row */}
+            <div className='rows'>
+                {/* My Personal Aquarium Project Here */}
+                <div className='halfWidth pushImg'>
+                    <img className='projectImg' src={beeswaxSS} alt="Project Screen Shot" />
+                    <Link className='projectLinks' to='/beeswax'><h3 class='center'>Beeswax HubSpot Migration</h3><h5 class='center'>A Layout On How I Navigated Beeswax's Migration to HubSpot</h5><h5 class='center'  id='hubspotOrange'>Full Migration to HubSpot CMS Including Landing Pages, Emails, Thank You Pages, Navigation, Custom Templates, Modules and Emails, Workflows, Call to Actions, Banners & Images, File Transfer and On</h5></Link>
+                </div>
+
+                {/* Second Project Placeholder Here */}
+            </div>
+
+            {/* The Middle Rows */}
             <div className='rows'>
                 {/* My Personal Aquarium Project Here */}
                 <div className='halfWidth pushImg'>

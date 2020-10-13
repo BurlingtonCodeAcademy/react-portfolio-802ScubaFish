@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Experience from './Experience';
 import Gallery from './Gallery'
+import Beeswax from './Beeswax';
 
 
 // This is where the main application will be rendered from
@@ -25,6 +26,7 @@ class App extends React.Component {
           <Route path='/projects'component={Projects} />
           <Route path='/experience'component={Experience} />
           <Route path='/gallery' component={Gallery} />
+          <Route path='/beeswax' component={Beeswax} />
         </Switch>
 
       </div>
