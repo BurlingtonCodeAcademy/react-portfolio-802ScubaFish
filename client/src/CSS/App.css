@@ -657,4 +657,18 @@ the example below it will set these styles at 750px or smaller  */
 
   }
 
-  
+  /* Beeswax Overview Page Styling Here */
+
+
+.beeRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+#beeswaxLPMasterContainer {
+    border: 1px solid black;
+}

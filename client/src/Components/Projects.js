@@ -26,7 +26,7 @@ function Projects() {
                 {/* My Personal Aquarium Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={beeswaxSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/beeswax'><h3 class='center'>Beeswax HubSpot Migration</h3><h5 class='center'>A Layout On How I Navigated Beeswax's Migration to HubSpot</h5><h5 class='center'  id='hubspotOrange'>Full Migration to HubSpot CMS Including Landing Pages, Emails, Thank You Pages, Navigation, Custom Templates, Modules and Emails, Workflows, Call to Actions, Banners & Images, File Transfer and On</h5></Link>
+                    <Link className='projectLinks' to='/beeswax'><h3 class='center'>Beeswax HubSpot Migration</h3><h5 class='center'>Full Site Migration to HubSpot's CMS</h5><h5 class='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Navigation, Custom Templates, Modules and Emails, Workflows, Call to Actions, Banners & Images, File Transfer and On</h5></Link>
                 </div>
 
                 {/* Second Project Placeholder Here */}
