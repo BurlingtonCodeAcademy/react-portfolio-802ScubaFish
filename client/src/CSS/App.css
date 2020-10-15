@@ -75,6 +75,15 @@ body {
 
 }
 
+.CENTER {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
 #turqColor {
     color: rgb(49, 204, 189);
 }
@@ -365,7 +374,7 @@ the example below it will set these styles at 750px or smaller  */
     flex-direction: column;
     align-items: center;
     width: 70%;
-    margin: auto
+    margin: auto;
 }
 
 #titleContainer {
@@ -669,6 +678,8 @@ the example below it will set these styles at 750px or smaller  */
     width: 100%;
 }
 
-#beeswaxLPMasterContainer {
+#beeswaxMastersContainer {
     border: 1px solid black;
 }
+
+
