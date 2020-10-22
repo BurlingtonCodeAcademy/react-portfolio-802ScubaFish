@@ -8,6 +8,7 @@ import Projects from './Projects';
 import Experience from './Experience';
 import Gallery from './Gallery'
 import Beeswax from './Beeswax';
+import HubSpot from './HubSpot';
 
 
 // This is where the main application will be rendered from
@@ -27,6 +28,7 @@ class App extends React.Component {
           <Route path='/experience'component={Experience} />
           <Route path='/gallery' component={Gallery} />
           <Route path='/beeswax' component={Beeswax} />
+          <Route path='/hubspot' component={HubSpot} />
         </Switch>
 
       </div>
