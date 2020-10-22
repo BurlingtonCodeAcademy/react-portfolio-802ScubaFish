@@ -40,7 +40,7 @@ export default function HubSpot() {
                 {/* Erema Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={eremaSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/erema'><h3 className='center'>Erema Blog & Workflows</h3><h5 className='center'>Setting Up Pillar Page, Landing Page, Thank You Page, Supporting Emails & Workflows</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Emails, Workflows, Call to Actions</h5></Link>
+                    <Link className='projectLinks' to='/erema'><h3 className='center'>Erema Blog</h3><h5 className='center'>Setting Up Pillar Page, Landing Pages, Thank You Pages, Supporting Emails & Workflows</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Emails, Workflows, Call to Actions</h5></Link>
                 </div>
 
                 {/* Accu360 Project Here */}

@@ -18,7 +18,7 @@ function Projects() {
             <h1>Development <span id='turqColor'> Projects</span></h1>
 
             {/* Main Page Sub-Title */}
-            <h5>*If Not Currently Deployed Links Will Lead To Github Repositories</h5>
+            <h5>*Links Will Lead To Github Repositories If Not Currently Deployed</h5>
 
             {/* HubSpot Page Button */}
             <Link className='hubSpotButton' to='/hubspot'><h3 className='center'>HubSpot Projects</h3></Link>

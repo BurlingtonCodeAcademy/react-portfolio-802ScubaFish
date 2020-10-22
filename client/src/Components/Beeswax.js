@@ -35,7 +35,7 @@ function Beeswax() {
         <div id='beeswaxMastersContainer'> 
 
         {/* Template Section Title */}
-        <h1 className="center">Beeswax Main Templates</h1>
+        <h2 className="center">Beeswax Main Templates</h2>
 
         {/* Template Section Sub-Title */}
         <h5 className="center">Landing Pages, Thank You Pages, and Emails</h5>
@@ -83,7 +83,7 @@ function Beeswax() {
     <div id='beeswaxMastersContainer'> 
 
         {/* Template Section Title */}
-        <h1 className="center">Beeswax Migration Directory</h1>
+        <h2 className="center">Beeswax Migration Directory</h2>
 
         {/* The Top Template Section Row */}
         <div className='beeRows'>

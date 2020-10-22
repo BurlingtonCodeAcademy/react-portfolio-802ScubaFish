@@ -31,7 +31,7 @@ export default function Teknologize() {
         <div id='beeswaxMastersContainer'> 
 
         {/* Template Section Title */}
-        <h1 className="center">Teknologize Blog Sidebar</h1>
+        <h2 className="center">Teknologize Blog Sidebar</h2>
 
         {/* Template Section Sub-Title */}
         <h5 className="center">Changing Blog Page Layout To Include a Right Side Bar On Post Pages To Increase Conversion!</h5>
@@ -50,7 +50,7 @@ export default function Teknologize() {
 
     <div id='beeswaxMastersContainer'>
 
-        <h1 className="center">Teknologize Blog NavBar</h1>
+        <h2 className="center">Teknologize Blog NavBar</h2>
         
         <div className='halfWidthBW pushImg'>
             <img className='projectImg' src={tekNavBar} alt="Project Screen Shot" />

@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import eremaEmail from '../Images/EremaEmail.png';
+import eremaLP from '../Images/EremaLP.png';
+import eremaTYP from '../Images/EremaTYP.png';
+import eremaPillar from '../Images/EremaPillar.png';
 
 export default function Erema() {
     return (
@@ -27,35 +31,42 @@ export default function Erema() {
 
         <div id='beeswaxMastersContainer'> 
 
-        {/* Template Section Title */}
-        <h1 className="center">Teknologize Blog Sidebar</h1>
-
-        {/* Template Section Sub-Title */}
-        <h5 className="center">Changing Blog Page Layout To Include a Right Side Bar On Post Pages To Increase Conversion!</h5>
+        {/* Section Title */}
+        <h2 className="center">Pillar Page + Supporting Pages</h2>
 
         <div className='beeRows'>
 
-            {/* eBooks and Whitepapers Landing Page */}
+            {/* Pillar Page */}
             <div className='halfWidthBW pushImg'>
-                {/* <img className='projectImg' src={} alt="Project Screen Shot" /> */}
-                <a className='projectLinks' href='https://blog.teknologize.com/top-4-cybersecurity-basics' target="_blank" rel="noopener noreferrer"><h5 className='center'>Combined Teknologize's Two Blog Templates Into One Document While Keeping Styling Consistent</h5><h5 className='center'  id='hubspotOrange'>New Sidebar Implemented While Also Keeping UX Consistent</h5></a>
+                <img className='projectImg' src={eremaPillar} alt="Project Screen Shot" />
+                <a className='projectLinks' href='https://blog.erema.com/en/pillar-erema-post-consumer-plastic-recycling-technology' target="_blank" rel="noopener noreferrer"><h5 className='center'>Pillar Page</h5><h5 className='center'  id='hubspotOrange'>Per HubSpot SEO Best Practices, Set Up Pillar Page Which Supporting Content Links Back To</h5></a>
+            </div>
+
+            <div className='halfWidthBW pushImg'>
+                <img className='projectImg' src={eremaLP} alt="Project Screen Shot" />
+                <a className='projectLinks' href='https://blog.erema.com/en/lp-case-study-belgotex-processes-excess-polypropylene-fiber' target="_blank" rel="noopener noreferrer"><h5 className='center'>Landing Pages</h5><h5 className='center'  id='hubspotOrange'>Landing Pages Created For Each CTA On The Pillar Page</h5></a>
+            </div>
+
+        </div>
+
+        <div className='beeRows'>
+
+            {/* Thank You Page */}
+            <div className='halfWidthBW pushImg'>
+                <img className='projectImg' src={eremaTYP} alt="Project Screen Shot" />
+                <a className='projectLinks' href='https://blog.erema.com/en/typ-case-study-belgotex-processes-excess-polypropylene-fiber' target="_blank" rel="noopener noreferrer"><h5 className='center'>Thank You Pages</h5><h5 className='center'  id='hubspotOrange'>Thank You Page Created For Each Landing Page Form</h5></a>
+            </div>
+
+            <div className='halfWidthBW pushImg'>
+                <img className='projectImg' src={eremaEmail} alt="Project Screen Shot" />
+                <div className='projectLinks'><h5 className='center'>Fulfillment Emails</h5><h5 className='center'  id='hubspotOrange'>Fulfillment Email Created For Each Landing Page Form. Emails Are Triggered on Landing Page Form Submissions by Workflows Events - No Link For Privacy Purposes</h5></div>
             </div>
 
         </div>
 
     </div>
 
-    <div id='beeswaxMastersContainer'>
-
-        <h1 className="center">Teknologize Blog NavBar</h1>
-        
-        <div className='halfWidthBW pushImg'>
-            {/* <img className='projectImg' src={} alt="Project Screen Shot" /> */}
-            <a className='projectLinks' href='https://blog.teknologize.com/' target="_blank" rel="noopener noreferrer"><h5 className='center'>Maintained Site Navigation During Blog Migration to HubSpot</h5><h5 className='center'  id='hubspotOrange'>Audited & Updated Both Current and Future Navigation Assets</h5></a>
-        </div>
-        
-    </div>
-
     </div>
     )
 }
+
