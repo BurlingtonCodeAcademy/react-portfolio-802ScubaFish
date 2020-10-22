@@ -393,10 +393,10 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 .halfWidth {
-    width: 50%
+    width: 50%;
+    border-top: 2px solid black;
+    padding-top: 1%;
 }
-
-
 
 #green {
     color: green;
@@ -701,12 +701,24 @@ the example below it will set these styles at 750px or smaller  */
     width: 100%;
 }
 
+.halfWidthBW {
+    width: 50%;
+    padding-left:1.5%;
+    padding-right:1.5%;
+    padding-bottom:2.5%;
+}
+
 #beeswaxMastersContainer {
     margin-left:5rem;
     margin-right: 5rem;
-    border: 1px solid black;
     margin-bottom: .5rem;
-   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    border-top: 2px solid black;
 }
 
 .buttonsContainer {
@@ -715,14 +727,17 @@ the example below it will set these styles at 750px or smaller  */
     padding-top: 2rem;
 }
 
+.projectBttnPadd {
+    margin-right:.5rem;
+}
+
 @media only screen and (max-width: 750px) {
     .buttonsContainer {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 2rem;
-        
+        padding-top: 2rem; 
     }
 
     .hubSpotButton {
@@ -730,9 +745,19 @@ the example below it will set these styles at 750px or smaller  */
     }
 
     #beeswaxMastersContainer {
-        margin-left: 0;
-        margin-right: 0;
-        border: 1px solid black;
+        margin-left: none;
+        margin-right: none;
+        align-items: center;
+        width: 95%;
+    }
+
+    .beeRows {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+        width: 100%;
+        font-size: 90%;
+        flex-direction: column;
     }
 
 }

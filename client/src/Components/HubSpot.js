@@ -34,7 +34,7 @@ export default function HubSpot() {
                 {/* Teknologize Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={teknologizeSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/teknologize'><h3 className='center'>Teknologize Blog</h3><h5 className='center'>Client Requested Adjustments to Existing HubSpot Blog Pages</h5><h5 className='center' id='hubspotOrange'>Right Side Bar to Increase Conversion + Working Navigation Bar, 100% No-Code Solutions for Client</h5></Link>
+                    <Link className='projectLinks' to='/teknologize'><h3 className='center'>Teknologize Blog</h3><h5 className='center'>New Blog Template Creation With Additional Features</h5><h5 className='center' id='hubspotOrange'>Right Sidebar to Increase Conversion + Navigation Management, 100% No-Code Solutions for Client</h5></Link>
                 </div>
 
                 {/* Erema Project Here */}

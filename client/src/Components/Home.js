@@ -17,7 +17,7 @@ class Home extends React.Component {
     }
 
     // Handles the 'Email Modal Display' Click Event
-    clickHandler = evt => {
+    clickHandler = (evt) => {
         evt.preventDefault();
         this.setState({
             modalDisplayed: true
