@@ -702,15 +702,46 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 #beeswaxMastersContainer {
+    margin-left:5rem;
+    margin-right: 5rem;
     border: 1px solid black;
+    margin-bottom: .5rem;
+   
 }
 
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .buttonsContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 2rem;
+        
+    }
+
+    .hubSpotButton {
+        margin-top:1rem;
+    }
+
+    #beeswaxMastersContainer {
+        margin-left: 0;
+        margin-right: 0;
+        border: 1px solid black;
+    }
+
+}
 
 /* HubSpot Page Styling Here */
 
 .projectButton {
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     font-size: 75%;
     text-decoration: none;
     color: black;
@@ -720,12 +751,13 @@ the example below it will set these styles at 750px or smaller  */
 
 .projectButton:hover {
     border-radius: 30px;
-    padding: 5px 20px;
+    padding: 5px 15px;
     font-size: 75%;
     text-decoration: none;
     color: white;
     background-color: rgb(49, 204, 189);
 }
+
 
 #projFlexContainerHS {
     display: flex;

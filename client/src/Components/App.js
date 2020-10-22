@@ -9,6 +9,8 @@ import Experience from './Experience';
 import Gallery from './Gallery'
 import Beeswax from './Beeswax';
 import HubSpot from './HubSpot';
+import Teknologize from './Teknologize';
+import Erema from './Erema'
 
 
 // This is where the main application will be rendered from
@@ -29,6 +31,8 @@ class App extends React.Component {
           <Route path='/gallery' component={Gallery} />
           <Route path='/beeswax' component={Beeswax} />
           <Route path='/hubspot' component={HubSpot} />
+          <Route path='/teknologize' component={Teknologize} />
+          <Route path='/erema' component={Erema} />
         </Switch>
 
       </div>

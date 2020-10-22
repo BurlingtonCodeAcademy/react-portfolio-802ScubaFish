@@ -33,7 +33,7 @@ function Projects() {
             {/* The Fox Game Project Here */}
                 <div className='halfWidth'>
                     <img className='projectImg' src={foxGame} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='https://enigmatic-savannah-53571.herokuapp.com/' target="_blank" rel="noopener noreferrer"><h3 className='center'>The Fox Game!</h3><h5 className='center'>An Animate Game Similar to The Classic 'Tamagotchi'</h5><h5 className='center'>Created through Frontend Master Classes</h5></a>
+                    <a className='projectLinks' href='https://enigmatic-savannah-53571.herokuapp.com/' target="_blank" rel="noopener noreferrer"><h3 className='center'>The Fox Game!</h3><h5 className='center'>An Animated Game Similar to The Classic 'Tamagotchi'</h5><h5 className='center'>Created through Frontend Master Classes. (Not Mobile Friendly)</h5></a>
                 </div>
             </div>
 

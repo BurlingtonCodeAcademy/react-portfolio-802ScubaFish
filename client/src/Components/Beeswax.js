@@ -1,9 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+import BWeBooksWhitePapers from '../Images/BeeswaxEbooksWhitePapers.png';
+import BWcaseStudies from '../Images/BeeswaxCaseStudies.png';
+import BWEmails from '../Images/BeeswaxEmails.png';
+import BWwebinars from '../Images/BeeswaxWebinars.png';
+import BWdirectory from '../Images/BeeswaxDirectory.png';
+
 
 // This is the Navigation Bar Component That exists on all of the pages
 function Beeswax() {
     return (
         <div>
+
+        <div className="buttonsContainer">
+
+            {/* Projects Page Button */}
+            <Link className='projectButton' to='/projects'><h3 className='buttonText'>Development Projects</h3></Link>
+
+            {/* HubSpot Page Button */}
+            <Link className='hubSpotButton' to='/hubspot'><h3 className='buttonText'>HubSpot Projects</h3></Link>
+
+        </div>
 
         <div className='CENTER'>
 
@@ -11,7 +28,7 @@ function Beeswax() {
         <h1>Beeswax <span id='turqColor'> Migration</span></h1>
 
         {/* Main Page Sub-Title */}
-        <h5>An Overview of Beeswax's HubSpot Migration</h5>
+        <h5>An Overview of Beeswax's HubSpot Migration from Pardot and Wordpress</h5>
 
         </div>
 
@@ -80,7 +97,6 @@ function Beeswax() {
     </div>
 
 
-    
     </div>
     )
 }
