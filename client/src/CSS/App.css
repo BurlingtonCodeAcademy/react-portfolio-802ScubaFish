@@ -139,7 +139,6 @@ the example below it will set these styles at 750px or smaller  */
 
 #profileImg {
     width: 16vw;
-    height: 45vh;
     border-radius: 50%;
     border: 3px solid whitesmoke;
     transition-duration: 0.4s;
@@ -442,7 +441,7 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 .projectImg:hover {
-    width: 101%;
+    width: 100%;
     height: 28vh;
     border-radius: 5%;
     border: 2px solid black;
@@ -456,21 +455,42 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 .hubSpotButton {
+    line-height: .50;
     border-radius: 20px;
-    padding: 5px 20px;
+    padding: 0px 20px;
     font-size: 75%;
     text-decoration: none;
     color: #FFFFFF;
     background-color: #FF7A59;
-    transition-duration: 0.4s
+    transition-duration: 0.4s;
 }
 
 .hubSpotButton:hover {
     border-radius: 30px;
-    padding: 5px 20px;
+    padding: 0px 15px;
+    font-size: 75%;
+    text-decoration: none;
+    color: black;
+    background-color: #FF7A59;
+}
+
+.hubSpotButtonAlt {
+    line-height: .50;
+    border-radius: 20px;
+    padding: 0px 20px;
     font-size: 75%;
     text-decoration: none;
     color: #FFFFFF;
+    background-color: #FF7A59;
+    transition-duration: 0.4s;
+}
+
+.hubSpotButtonAlt:hover {
+    border-radius: 30px;
+    padding: 0px 15px;
+    font-size: 75%;
+    text-decoration: none;
+    color: black;
     background-color: #FF7A59;
 }
 
@@ -501,6 +521,10 @@ the example below it will set these styles at 750px or smaller  */
     
     .pushImg {
         margin-right: 0%;
+    }
+
+    .hubSpotButtonAlt {
+        margin-top: .5rem;
     }
     
   }
@@ -702,7 +726,7 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 .halfWidthBW {
-    width: 50%;
+    width: 75%;
     padding-left:1.5%;
     padding-right:1.5%;
     padding-bottom:2.5%;
@@ -740,10 +764,6 @@ the example below it will set these styles at 750px or smaller  */
         padding-top: 2rem; 
     }
 
-    .hubSpotButton {
-        margin-top:1rem;
-    }
-
     #beeswaxMastersContainer {
         margin-left: none;
         margin-right: none;
@@ -765,8 +785,10 @@ the example below it will set these styles at 750px or smaller  */
 /* HubSpot Page Styling Here */
 
 .projectButton {
+
+    line-height: .50;
     border-radius: 20px;
-    padding: 5px 15px;
+    padding: 0px 20px;
     font-size: 75%;
     text-decoration: none;
     color: black;
@@ -776,7 +798,7 @@ the example below it will set these styles at 750px or smaller  */
 
 .projectButton:hover {
     border-radius: 30px;
-    padding: 5px 15px;
+    padding: 0px 15px;
     font-size: 75%;
     text-decoration: none;
     color: white;

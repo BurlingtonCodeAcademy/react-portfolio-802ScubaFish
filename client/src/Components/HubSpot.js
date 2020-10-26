@@ -21,14 +21,14 @@ export default function HubSpot() {
             <h5>*Links Will Lead To HubSpot Project Pages or Site Examples</h5>
 
             {/* Projects Page Button */}
-            <Link className='projectButton' to='/projects'><h3 className='center'>Development Projects</h3></Link>
+            <Link className='projectButton' to='/projects'><h3 className='center'>Switch To</h3><h3 className='center'>Development Projects</h3></Link>
 
             {/* The Top Row */}
             <div className='rows'>
                 {/* Beeswax Migration Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={beeswaxSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/beeswax'><h3 className='center'>Beeswax HubSpot Migration</h3><h5 className='center'>Migrating from Pardot/Wordpress to HubSpots CMS</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Navigation, Custom Templates, Modules and Emails, Workflows, Call to Actions, Banners & Images, File Transfer, No-Code Solutions for Clients and on</h5></Link>
+                    <Link className='projectLinks' to='/beeswax'><h3 className='center'>Beeswax HubSpot Migration</h3><h5 className='center'>Migrating from Pardot/Wordpress to HubSpots CMS</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Navigation, Custom Templates, Modules, Workflows, Call to Actions, Banners & Images, File Transfer, No-Code Solutions for Clients and on</h5></Link>
                 </div>
 
                 {/* Teknologize Project Here */}
