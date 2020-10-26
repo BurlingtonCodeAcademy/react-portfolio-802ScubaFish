@@ -15,7 +15,7 @@ export default function Erema() {
             <Link className='projectButton projectBttnPadd' to='/projects'><h3 className='buttonText'>Development Projects</h3></Link>
 
             {/* HubSpot Page Button */}
-            <Link className='hubSpotButton' to='/hubspot'><h3 className='buttonText'>HubSpot Projects</h3></Link>
+            <Link className='hubSpotButtonAlt' to='/hubspot'><h3 className='buttonText'>HubSpot Projects</h3></Link>
 
         </div>
 
