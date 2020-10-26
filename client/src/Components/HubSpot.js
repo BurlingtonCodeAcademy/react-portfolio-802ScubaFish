@@ -46,7 +46,7 @@ export default function HubSpot() {
                 {/* Accu360 Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={Accu360} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='https://resources.accu360.com/-temporary-slug-c0ef17a5-ddf1-4939-9ad7-92bf1664de5d?hs_preview=xThFRJfv-35535862329' target="_blank" rel="noopener noreferrer"><h3 className='center'>Accu360 Landing Page</h3><h5 className='center'>A No Code Solution to a "Stylish Landing Page" for Global-Z (Accu360)</h5><h5 className='center'  id='hubspotOrange'>Including HubSpot Markup Language or HubL, Javascript, CSS, HTMl and on</h5></a>
+                    <a className='projectLinks' href='https://www.accu360.com/' target="_blank" rel="noopener noreferrer"><h3 className='center'>Accu360 Landing Page</h3><h5 className='center'>A No Code Solution to a "Stylish Landing Page" for Global-Z (Accu360)</h5><h5 className='center'  id='hubspotOrange'>Including HubSpot Markup Language or HubL, Javascript, CSS, HTMl and on</h5></a>
                 </div>
 
                 {/* PackageAware Project Here */}
