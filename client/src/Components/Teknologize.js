@@ -39,7 +39,7 @@ export default function Teknologize() {
         <div className='beeRows'>
 
             {/* eBooks and Whitepapers Landing Page */}
-            <div className='halfWidthBW pushImg'>
+            <div className='halfWidthTK pushImg'>
                 <img className='projectImg' src={tekBlogSS} alt="Project Screen Shot" />
                 <a className='projectLinks' href='https://blog.teknologize.com/top-4-cybersecurity-basics' target="_blank" rel="noopener noreferrer"><h5 className='center'>Combined Teknologize's Two Blog Templates Into One Document While Keeping Styling Consistent</h5><h5 className='center'  id='hubspotOrange'>New Sidebar Implemented While Also Keeping UX Consistent</h5></a>
             </div>
@@ -52,7 +52,7 @@ export default function Teknologize() {
 
         <h2 className="center">Teknologize Blog NavBar</h2>
         
-        <div className='halfWidthBW pushImg'>
+        <div className='halfWidthTK pushImg'>
             <img className='projectImg' src={tekNavBar} alt="Project Screen Shot" />
             <a className='projectLinks' href='https://blog.teknologize.com/' target="_blank" rel="noopener noreferrer"><h5 className='center'>Maintained Site Navigation During Blog Migration to HubSpot</h5><h5 className='center'  id='hubspotOrange'>Audited & Updated Both Current and Future Navigation Assets</h5></a>
         </div>

@@ -815,3 +815,10 @@ the example below it will set these styles at 750px or smaller  */
     margin: auto;
 }
 
+.halfWidthTK {
+    width: 50%;
+    padding-left:1.5%;
+    padding-right:1.5%;
+    padding-bottom:2.5%;
+}
+
