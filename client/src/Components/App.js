@@ -10,7 +10,8 @@ import Gallery from './Gallery'
 import Beeswax from './Beeswax';
 import HubSpot from './HubSpot';
 import Teknologize from './Teknologize';
-import Erema from './Erema'
+import Erema from './Erema';
+import ScrollToTop from './ScrollToTop';
 
 
 // This is where the main application will be rendered from
@@ -47,7 +48,10 @@ export default function Router() {
 
   return (
     <BrowserRouter>
-      <App />
+      <ScrollToTop>
+        <App />
+      </ScrollToTop>
     </BrowserRouter>
   );
 };
+

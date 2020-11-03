@@ -40,7 +40,7 @@ export default function HubSpot() {
                 {/* Erema Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={eremaSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/erema'><h3 className='center'>Erema Blog</h3><h5 className='center'>Setting Up Pillar Page, Landing Pages, Thank You Pages, Supporting Emails & Workflows</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Emails, Workflows, Call to Actions</h5></Link>
+                    <Link className='projectLinks' to='/erema'><h3 className='center'>Erema Blog</h3><h5 className='center'>Setting Up Pillar Pages, Landing Pages, Thank You Pages, Supporting Emails & Workflows</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Emails, Workflows, Call to Actions</h5></Link>
                 </div>
 
                 {/* Accu360 Project Here */}
@@ -62,13 +62,13 @@ export default function HubSpot() {
                 {/* Victory Hemp Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={victoryHemp} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='https://resources.victoryhempfoods.com/ppc-landing-page' target="_blank" rel="noopener noreferrer"><h3 className='center'>Victory Hemp Region Blocker</h3><h5 className='center'>Block Specified Countries and Regions From Accessing Content Portions of Pages</h5><h5 className='center'  id='hubspotOrange'>Including HubSpot Markup Language or HubL, Javascript, CSS, HTMl and on</h5></a>
+                    <a className='projectLinks' href='https://resources.victoryhempfoods.com/ppc-landing-page' target="_blank" rel="noopener noreferrer"><h3 className='center'>Victory Hemp Region Blocker</h3><h5 className='center'>Block Specified Countries and Regions From Accessing Content Portions of Pages</h5><h5 className='center'  id='hubspotOrange'>Including HubSpot Markup Language or HubL, CSS, HTMl</h5></a>
                 </div>
 
                 {/* My Personal Aquarium Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={myAquarium} alt="Project Screen Shot" />
-                    <a className='projectLinks' href='http://hubspot-developers-16tv3r8-8374954.hs-sites.com/en/christians-aquarium-lp' target="_blank" rel="noopener noreferrer"><h3 className='center'>My Personal Aquarium Site</h3><h5 className='center'>A quick fun website built to show some of the power of HubSpot's CMS, Custom Editable Modules and Drag & Drop Templates</h5><h5 className='center'  id='hubspotOrange'>Including HubSpot Markup Language or HubL, Javascript, CSS, HTMl and on</h5></a>
+                    <a className='projectLinks' href='http://hubspot-developers-16tv3r8-8374954.hs-sites.com/en/christians-aquarium-lp' target="_blank" rel="noopener noreferrer"><h3 className='center'>My Personal Aquarium Site</h3><h5 className='center'>A quick fun website built to show some of the power of HubSpot's CMS, Custom Editable Repeating Modules and Drag & Drop Templates</h5><h5 className='center'  id='hubspotOrange'>Including HubSpot Markup Language or HubL, Javascript, CSS, HTMl and on</h5></a>
                 </div>
                 {/* HubSpot CMS DEV Practicum Here */}
                 <div className='halfWidth pushImg'>

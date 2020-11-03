@@ -145,8 +145,7 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 #profileImg:hover {
-    width: 16vw;
-    height: 45vh;
+    transform: scale(1.1, 1.1);
     border-radius: 50%;
     border: 3px solid rgb(49, 204, 189);
 }
@@ -212,7 +211,6 @@ the example below it will set these styles at 750px or smaller  */
 
 #modalButton {
     background-color: rgb(235, 138, 11);
-    /* Green */
     border: none;
     color: whitesmoke;
     padding: 2px 25px;
@@ -225,10 +223,9 @@ the example below it will set these styles at 750px or smaller  */
 
 #modalButton:hover {
     background-color: rgb(49, 204, 189);
-    /* Green */
     border: none;
     color: rgb(80, 80, 80);
-    padding: 5px 26px;
+    transform: scale(1.1, 1.1);
     text-align: center;
     text-decoration: none;
     display: inline-block;
