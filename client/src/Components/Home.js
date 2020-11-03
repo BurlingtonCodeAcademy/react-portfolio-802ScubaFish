@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../Images/MyPortfolioPic.jpg';
+import profile from '../Images/MainProfImageTwo.jpg';
 import emailButton from '../Images/footerlink-email(1).png';
 import facebookButton from '../Images/footerlink-facebook(1).png';
 import instaButton from '../Images/footerlink-instagram(1).png';

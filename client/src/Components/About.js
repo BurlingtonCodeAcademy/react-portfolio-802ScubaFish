@@ -1,5 +1,5 @@
-import React from 'react'
-import profileImg from '../Images/ProfileImg.jpg'
+import React from 'react';
+import profileImg from '../Images/AboutProfileImageTwo.jpg';
 
 // This Handles The About Page Component
 function About() {
