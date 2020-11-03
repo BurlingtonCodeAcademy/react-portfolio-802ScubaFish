@@ -80,3 +80,4 @@ function EmailModal(props) {
 
 // Export this entire Component to be brought in on App.js
 export default Home;
+

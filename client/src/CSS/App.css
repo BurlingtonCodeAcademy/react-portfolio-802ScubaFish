@@ -819,3 +819,11 @@ the example below it will set these styles at 750px or smaller  */
     padding-bottom:2.5%;
 }
 
+@media only screen and (max-width: 750px) {
+
+    .halfWidthTK {
+        width: 75%
+    }
+    
+  }
+
