@@ -75,7 +75,7 @@ function Beeswax() {
 
         <div className='halfWidthBW pushImg'>
         {/* Mid Page Sub-Title */}
-        <h5 className='center'>I've Also Set-Up All The Associated Workflows, Supporting LPs, and Organized File & Naming Conventions</h5>
+        <h5 className='center'>I've Also Set-Up All The Associated Workflows, Supporting Pages, and Organized File & Naming Conventions</h5>
         </div>
 
     </div>
