@@ -765,7 +765,7 @@ the example below it will set these styles at 750px or smaller  */
 .lg-img {
     position: absolute;
     top: 0vh;
-    left: 65vh;
+    left: 67vh;
     width: 35vw;
     height: auto;
     z-index: 10;
