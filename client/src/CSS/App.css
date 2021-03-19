@@ -693,6 +693,11 @@ the example below it will set these styles at 750px or smaller  */
     padding-top: 5vh;
 }
 
+.resumeContainer > a {
+    display: flex;
+    justify-content: center;
+}
+
 .resumeImage1 {
     box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(49, 204, 189);
     transition-duration: .5s;
