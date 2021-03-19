@@ -684,6 +684,55 @@ the example below it will set these styles at 750px or smaller  */
     justify-content: center;
 }
 
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    align-items: center;
+    border-top: 2px solid black;
+    padding-top: 5vh;
+}
+
+.resumeImage1 {
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(49, 204, 189);
+    transition-duration: .5s;
+}
+
+.resumeImage2 {
+    margin-top: 3vh;
+    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(49, 204, 189);
+    transition-duration: .5s;
+}
+
+.pageText1 {
+    margin-top: 2vh;
+    font-size: 60%;
+}
+
+.pageText2 {
+    margin-top: 2vh;
+    font-size: 60%;
+    margin-bottom: 5vh;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .resumeContainer {
+        padding-top: 3vh;
+    }
+
+    .resumeImage1 {
+        max-width: 85%; 
+    }
+    
+    .resumeImage2 {
+        max-width: 85%; 
+        margin-top: 2vh;
+    }
+    .pageText2 {
+        margin-bottom: 3vh;
+    }
+}
 
 /* Gallery Page */
 .App {
@@ -853,8 +902,7 @@ the example below it will set these styles at 750px or smaller  */
 
   }
 
-  /* Beeswax Overview Page Styling Here */
-
+/* Beeswax Overview Page Styling Here */
 
 .beeRows {
     display: flex;
@@ -969,4 +1017,3 @@ the example below it will set these styles at 750px or smaller  */
     }
     
   }
-
