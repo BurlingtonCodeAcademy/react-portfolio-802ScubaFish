@@ -50,9 +50,9 @@ class Home extends React.Component {
                     <div id='socialMediaImgs'>
                         {this.state.modalDisplayed === true ? <EmailModal handleCancel={this.cancelHandler} /> : null}
                         <button id="eMButton" onClick={this.clickHandler}><img className='socialButtons' src={emailButton} alt='Email Button' /></button>
-                        <a href='https://www.facebook.com/ChristianRDow' target="_blank"><img className='socialButtons' src={facebookButton} alt='Facebook Button' /></a>
-                        <a href='https://www.instagram.com/802blueeyes/?hl=en' target="_blank"><img className='socialButtons' src={instaButton} alt='Instagram Button' /></a>
-                        <a href='https://www.linkedin.com/in/christian-dow' target="_blank"><img className='socialButtons' src={phoneButton} alt='Phone Button' /></a>
+                        <a href='https://www.facebook.com/ChristianRDow' target="_blank" rel="noopener noreferrer"><img className='socialButtons' src={facebookButton} alt='Facebook Button' /></a>
+                        <a href='https://www.instagram.com/802blueeyes/?hl=en' target="_blank" rel="noopener noreferrer"><img className='socialButtons' src={instaButton} alt='Instagram Button' /></a>
+                        <a href='https://www.linkedin.com/in/christian-dow' target="_blank" rel="noopener noreferrer"><img className='socialButtons' src={phoneButton} alt='Phone Button' /></a>
                     </div>
                 </div>
             </div>

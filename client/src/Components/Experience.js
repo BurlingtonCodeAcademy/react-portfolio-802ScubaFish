@@ -17,9 +17,9 @@ function Experience() {
 
             {/* Replaced iFrame with images from PDF for higher quality document styling overall */}
             <div className='resumeContainer'>
-                <a href='https://www.linkedin.com/in/christian-dow/' target="_blank"><img className='resumeImage1' src={ResumePage1} alt="Resume Page 1"></img></a>
+                <a href='https://www.linkedin.com/in/christian-dow/' target="_blank" rel="noopener noreferrer"><img className='resumeImage1' src={ResumePage1} alt="Resume Page 1"></img></a>
                 <p className='pageText1'>(Page 1)</p>
-                <a href='https://www.linkedin.com/in/christian-dow/' target="_blank"><img className='resumeImage2' src={ResumePage2} alt="Resume Page 2"></img></a>
+                <a href='https://www.linkedin.com/in/christian-dow/' target="_blank" rel="noopener noreferrer"><img className='resumeImage2' src={ResumePage2} alt="Resume Page 2"></img></a>
                 <p className='pageText2'>(Page 2)</p>
             </div>
        </>

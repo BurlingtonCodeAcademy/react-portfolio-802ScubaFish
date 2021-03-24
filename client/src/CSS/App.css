@@ -901,10 +901,13 @@ the example below it will set these styles at 750px or smaller  */
 
     #nav-buttons {
         display: flex;
-        top:150vh;
+        top: -05vh;
         position: absolute;
     }
 
+    .img-carousel {
+        margin-bottom: 10vh;
+    }
   }
 
 /* Beeswax Overview Page Styling Here */
