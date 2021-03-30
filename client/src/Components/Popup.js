@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
 
 export default function Popup() {
+    // State to track popup display value
     const [popupState, setPopupState] = useState('none');
 
+    // If site has not been visited before, display modal & set item to local storage for future
     useEffect(() => {
         let popupItem = localStorage.getItem('popup_item');
 
@@ -12,6 +14,7 @@ export default function Popup() {
         }
     }, [])
 
+    // Function to Close "First Visit Popup"
     function closeHandler() {
         if (popupState === 'flex') {
             setPopupState('none')
