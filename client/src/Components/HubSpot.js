@@ -8,6 +8,7 @@ import victoryHemp from '../Images/VictoryHempSS.png';
 import teknologizeSS from '../Images/TeknologizeSS.png';
 import eremaSS from '../Images/EremaSS.png';
 import packageAwareSS from '../Images/PackageAwareSS.png';
+import iwd from '../Images/IWD-HomePage.png'
 
 
 export default function HubSpot() {
@@ -28,7 +29,13 @@ export default function HubSpot() {
                 {/* Beeswax Migration Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={beeswaxSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/beeswax'><h3 className='center'>Beeswax HubSpot Migration</h3><h5 className='center'>Migrating from Pardot/Wordpress to HubSpots CMS</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Navigation, Custom Templates, Modules, Workflows, Call to Actions, Banners & Images, File Transfer, No-Code Solutions for Clients and on</h5></Link>
+                    <Link className='projectLinks' to='/beeswax'><h3 className='center'>Beeswax HubSpot Migration</h3><h5 className='center'>Migrating from Pardot/Wordpress to HubSpots CMS</h5><h5 className='center' id='hubspotOrange'>Including Creating Landing Pages, Emails, Thank You Pages, Navigation, Editing Custom Templates, Modules, Workflows, Call to Actions, Banners & Images, File Transfer, No-Code Solutions for Clients</h5></Link>
+                </div>
+
+                {/* Ideas Well Done Project Here */}
+                <div className='halfWidth pushImg'>
+                    <img className='projectImg' src={iwd} alt="Project Screen Shot" />
+                    <Link className='projectLinks' href="https://blog.ideaswelldone.com/" target="_blank" rel="noopener noreferrer"><h3 className='center'>Ideas Well Done Blog</h3><h5 className='center'>Customize Existing Theme to Fit Company Image & Style, Add Sidebar to Blog Template</h5><h5 className='center' id='hubspotOrange'>Restyling existing Site and Blog, Created custom Discovery Call Menu Item, Added Blog Sidebar & additional features at clients request. Updated all existing website and blog pages to be consistent.</h5></Link>
                 </div>
 
                 {/* Teknologize Project Here */}
@@ -40,7 +47,7 @@ export default function HubSpot() {
                 {/* Erema Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={eremaSS} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='/erema'><h3 className='center'>Erema Blog</h3><h5 className='center'>Setting Up Pillar Pages, Landing Pages, Thank You Pages, Supporting Emails & Workflows</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Workflows, Call to Actions & Forms</h5></Link>
+                    <Link className='projectLinks' to='/erema'><h3 className='center'>Erema Blog</h3><h5 className='center'>Setting Up Pillar Pages, Landing Pages, Thank You Pages, Supporting Emails & Automated Workflows</h5><h5 className='center' id='hubspotOrange'>Including Landing Pages, Emails, Thank You Pages, Workflows, Call to Actions & Forms</h5></Link>
                 </div>
 
                 {/* Accu360 Project Here */}
@@ -54,7 +61,6 @@ export default function HubSpot() {
                     <img className='projectImg' src={packageAwareSS} alt="Project Screen Shot" />
                     <a className='projectLinks' href='https://www.packageaware.io/' target="_blank" rel="noopener noreferrer"><h3 className='center'>PackageAware Landing Page</h3><h5 className='center'>Styling & Functionality Adjustments to Main Pages</h5><h5 className='center'  id='hubspotOrange'>Page Template & Module Fixes per Client Request</h5></a>
                 </div>
-
             </div>
 
             {/* The Middle Rows */}
@@ -75,7 +81,6 @@ export default function HubSpot() {
                     <img className='projectImg' src={cmsDevPracticum} alt="Project Screen Shot" />
                     <a className='projectLinks' href='http://hubspot-developers-16tv3r8-8374954.hs-sites.com/my-cool-practicum' target="_blank" rel="noopener noreferrer"><h3 className='center'>My HubSpot CMS Developer Practicum Submission</h3><h5 className='center'>A Site Built Following Hubspot's CMS Practicum Standards to Prove My Knowledge of Their CMS Platform</h5><h5 className='center'  id='hubspotOrange'>Graded by Hubspot and Passed after first submission September 2020. See the Certification on my LinkedIn!</h5></a>
                 </div>
-
             </div>
         </div>
     )
