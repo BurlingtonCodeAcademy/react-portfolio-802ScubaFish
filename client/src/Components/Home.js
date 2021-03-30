@@ -4,6 +4,7 @@ import emailButton from '../Images/footerlink-email(1).png';
 import facebookButton from '../Images/footerlink-facebook(1).png';
 import instaButton from '../Images/footerlink-instagram(1).png';
 import phoneButton from '../Images/footerlink-phone(1).png';
+import Popup from './Popup';
 
 // This is the Home Page Component that handles setting up the Home / Landing Page
 class Home extends React.Component {
@@ -41,6 +42,7 @@ class Home extends React.Component {
 
             <div id='background'>
                 <div id='mainContainer'>
+                    <Popup />
                     {/* The Main Profile Image of Myself */}
                     <img id='profileImg' src={profile} alt="My Profile Pic" />
                     {/* My Chosen Titles */}

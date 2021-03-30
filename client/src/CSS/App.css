@@ -1025,3 +1025,46 @@ the example below it will set these styles at 750px or smaller  */
     }
     
   }
+
+  /* Popup Styling Here */
+
+  .popup {
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    height: 27vh;
+    width: 50vw;
+    background:rgb(20, 20, 20, .95);
+    color: white;
+    border-radius: 40px;
+    line-height: .5;
+  }
+
+  #popupButton {
+    background-color: rgb(235, 138, 11);
+    border: none;
+    color: whitesmoke;
+    padding: 2px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin-top: .5vh;
+    z-index: 999999;
+}
+
+@media only screen and (max-width: 750px) {
+    .popup {
+        top: 15%;
+        width: 95vw;
+        height: 50vh;
+        line-height: 1.5;
+    }
+    
+    .popup h2, h3, h4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

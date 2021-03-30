@@ -24,7 +24,7 @@ export default function HubSpot() {
             {/* Projects Page Button */}
             <Link className='projectButton' to='/projects'><h3 className='center'>Switch To</h3><h3 className='center'>Development Projects</h3></Link>
 
-            {/* The Top Row */}
+            {/* The Top Rows */}
             <div className='rows'>
                 {/* Beeswax Migration Project Here */}
                 <div className='halfWidth pushImg'>
@@ -35,7 +35,7 @@ export default function HubSpot() {
                 {/* Ideas Well Done Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={iwd} alt="Project Screen Shot" />
-                    <Link className='projectLinks' href="https://blog.ideaswelldone.com/" target="_blank" rel="noopener noreferrer"><h3 className='center'>Ideas Well Done Blog</h3><h5 className='center'>Customize Existing Theme to Fit Company Image & Style, Add Sidebar to Blog Template</h5><h5 className='center' id='hubspotOrange'>Restyling existing Site and Blog, Created custom Discovery Call Menu Item, Added Blog Sidebar & additional features at clients request. Updated all existing website and blog pages to be consistent.</h5></Link>
+                    <a className='projectLinks' href="https://blog.ideaswelldone.com/" target="_blank" rel="noopener noreferrer"><h3 className='center'>Ideas Well Done Blog</h3><h5 className='center'>Customize Existing Theme to Fit Company Image & Style, Add Sidebar to Blog Template</h5><h5 className='center' id='hubspotOrange'>Restyling existing Site and Blog, Created custom Discovery Call Menu Item, Added Blog Sidebar & additional features at clients request. Updated all existing website and blog pages to be consistent.</h5></a>
                 </div>
 
                 {/* Teknologize Project Here */}

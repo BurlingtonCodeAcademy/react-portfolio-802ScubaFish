@@ -17,14 +17,11 @@ import ScrollToTop from './ScrollToTop';
 // This is where the main application will be rendered from
 class App extends React.Component {
 
-  function 
-
   render() {
 
     return (
       <div id='screenSize'>
         <NavBar />
-
         {/* Setting up the paths to each of the components */}
         <Switch>
           <Route path='/' exact component={Home} />
