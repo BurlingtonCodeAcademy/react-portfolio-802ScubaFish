@@ -66,8 +66,7 @@ class Home extends React.Component {
 function EmailModal(props) {
     return (
         <div id='emailDisplay'>
-
-            <h1>My Personal Email Adress is : CHRISTIANRDOW@GMAIL.COM </h1>
+            <h1>My Personal Email Address is : CHRISTIANRDOW@GMAIL.COM </h1>
             <h2>Feel free to contact me at any time.</h2>
             <h3>I look forward to speaking with you!</h3>
             <h3>I can also be reached at :</h3>
@@ -75,7 +74,6 @@ function EmailModal(props) {
             <h5>Best,</h5>
             <h5>Christian</h5>
             <button id='modalButton' onClick={props.handleCancel}>Close</button>
-
         </div>
     );
 }

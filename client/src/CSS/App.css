@@ -1,4 +1,4 @@
-/* Global Styling */
+/* Global Styling ---------------------------------------*/
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     height: 100%;
 }
 
-/* Navigation Bar Styling Here */
+/* Navigation Bar Styling Here ----------------------------*/
 #navBar {
     display: flex;
     background-color: rgb(5, 5, 5);
@@ -88,7 +88,7 @@ body {
     color: rgb(49, 204, 189);
 }
 
-/* Menu Icon Styling Here*/
+/* Menu Icon Styling Here -------------------------------*/
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
     width: 60px;
@@ -193,7 +193,7 @@ body {
   }
   
 
-/* Mobile Menu Styling */
+/* Mobile Menu Styling -----------------------------------*/
 
 #hamNavSection {
     display:none;
@@ -223,6 +223,7 @@ body {
     border-radius: 5%;
     right:0;
     padding: 10px;
+    z-index: 1100;
 }
 
 /* Navigation Bar Mobile Styling Here
@@ -237,30 +238,11 @@ the example below it will set these styles at 750px or smaller  */
 
     #navBar {
         display: none;
-      /* flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 32%;
-      font-size: 90%; */
     }
-    /* #alignRight {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 4%;
-      }
-
-      #alignLeft{
-        justify-content: center;
-        align-items: center;
-        width: auto;
-        padding-left: 0%;
-        padding-right: 0%;
-      } */
   }
   
 
-/* Home Page Styling Here */
+/* Home Page Styling Here ----------------------------------*/
 /* Might use this background image later instead. Saving URL here.. https://images2.alphacoders.com/840/thumb-1920-840511.jpg */
 #background {
     background-image: url('https://images.wallpaperscraft.com/image/ship_diver_fish_160008_2048x1152.jpg');
@@ -341,7 +323,7 @@ the example below it will set these styles at 750px or smaller  */
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 25%;
+    top: 40%;
     font-size: 100%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
@@ -350,7 +332,15 @@ the example below it will set these styles at 750px or smaller  */
         1px -1px 0 gray,
         -1px 1px 0 rgb(20, 20, 20),
         1px 1px 0 rgb(20, 20, 20);
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 20px;
 }
+
+#emailDisplay > h1, #emailDisplay > h2, #emailDisplay > h3, #emailDisplay > h5 {
+    padding-left: 5%;
+}
+
+
 
 #modalButton {
     background-color: rgb(235, 138, 11);
@@ -362,6 +352,8 @@ the example below it will set these styles at 750px or smaller  */
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
+    margin-left: 40%;
+    margin-bottom: 3%;
 }
 
 #modalButton:hover {
@@ -380,7 +372,7 @@ the example below it will set these styles at 750px or smaller  */
     padding: 0;
 }
 
-/* Home Page Mobile Styling Here */
+/* Home Page Mobile Styling Here ----------------------------*/
 
 @media only screen and (max-width: 750px) {
     
@@ -396,7 +388,7 @@ the example below it will set these styles at 750px or smaller  */
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 75%;
+        top: 50%;
         font-size: 75%;
         transform: translate(-50%, -50%);
         color: whitesmoke;
@@ -406,7 +398,9 @@ the example below it will set these styles at 750px or smaller  */
             1px -1px 0 gray,
             -1px 1px 0 rgb(20, 20, 20),
             1px 1px 0 rgb(20, 20, 20);
-    }
+        width: 100%;
+    } 
+
     #profileImg {
         width: auto;
         height: 45vh;
@@ -418,7 +412,7 @@ the example below it will set these styles at 750px or smaller  */
   }
 
 
-/* About Page Styling Here */
+/* About Page Styling Here -------------------------------*/
 #flexContainer {
     display: flex;
     justify-content: center;
@@ -487,7 +481,7 @@ the example below it will set these styles at 750px or smaller  */
 }
 
 
-/* About Page Media Screen Styling Here*/
+/* About Page Media Screen Styling Here ---------------------*/
 
 @media only screen and (max-width: 750px) {
     #flexContainer {
@@ -498,15 +492,20 @@ the example below it will set these styles at 750px or smaller  */
 
     #subContainer {
         flex-direction: column;
+        align-items: flex-start;
     }
     
     #profImageContainer {
         margin-right: 0;
     }
+    
+    #profileContainer {
+        width:75%;
+    }
 
 }
 
-/* Projects Page Styling Here */
+/* Projects Page Styling Here ---------------------------*/
 #projFlexContainer {
     display: flex;
     justify-content: center;
@@ -634,7 +633,7 @@ the example below it will set these styles at 750px or smaller  */
     background-color: #FF7A59;
 }
 
-/* Projects Page Mobile Styling Here */
+/* Projects Page Mobile Styling Here --------------------- */
 @media only screen and (max-width: 750px) {
     
     #rows {
@@ -670,7 +669,7 @@ the example below it will set these styles at 750px or smaller  */
   }
 
 
-/* Experience Page Styling */
+/* Experience Page Styling ------------------------------*/
 #iFrame {
     display: flex;
     justify-content: center;
@@ -739,7 +738,7 @@ the example below it will set these styles at 750px or smaller  */
     }
 }
 
-/* Gallery Page */
+/* Gallery Page --------------------------------------*/
 .App {
     text-align: center;
     display: flex;
@@ -823,7 +822,7 @@ the example below it will set these styles at 750px or smaller  */
     display: flex;
 }
 
-/* Gallery Mobile Friendly Version Here */
+/* Gallery Mobile Friendly Version Here ----------------- */
 
 @media only screen and (max-width: 750px) {
     
@@ -910,7 +909,7 @@ the example below it will set these styles at 750px or smaller  */
     }
   }
 
-/* Beeswax Overview Page Styling Here */
+/* Beeswax Overview Page Styling Here ---------------- */
 
 .beeRows {
     display: flex;
@@ -978,7 +977,7 @@ the example below it will set these styles at 750px or smaller  */
 
 }
 
-/* HubSpot Page Styling Here */
+/* HubSpot Page Styling Here -------------------------- */
 
 .projectButton {
 
@@ -1026,19 +1025,20 @@ the example below it will set these styles at 750px or smaller  */
     
   }
 
-  /* Popup Styling Here */
+/* Popup Styling Here -------------------------------- */ 
 
   .popup {
     align-items: center;
     flex-direction: column;
     position: absolute;
     top: 25%;
-    height: 27vh;
+    height: 28vh;
     width: 50vw;
     background:rgb(20, 20, 20, .95);
     color: white;
     border-radius: 40px;
     line-height: .5;
+    z-index: 1000;
   }
 
   #popupButton {
@@ -1063,8 +1063,9 @@ the example below it will set these styles at 750px or smaller  */
         line-height: 1.5;
     }
     
-    .popup h2, h3, h4 {
+    .popup > h2, .popup > h3, .popup > h4 {
         padding-left: 10px;
         padding-right: 10px;
     }
 }
+
