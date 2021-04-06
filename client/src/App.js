@@ -1,17 +1,17 @@
 import React from 'react';
-import '../CSS/App.css';
+import './CSS/App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import NavBar from './NavBar';
-import About from './About';
-import Projects from './Projects';
-import Experience from './Experience';
-import Gallery from './Gallery'
-import Beeswax from './Beeswax';
-import HubSpot from './HubSpot';
-import Teknologize from './Teknologize';
-import Erema from './Erema';
-import ScrollToTop from './ScrollToTop';
+import Home from './Components/Home';
+import NavBar from './Components/NavBar';
+import About from './Components/About';
+import Projects from './Components/Projects';
+import Experience from './Components/Experience';
+import Gallery from './Components/Gallery'
+import Beeswax from './Components/Beeswax';
+import HubSpot from './Components/HubSpot';
+import Teknologize from './Components/Teknologize';
+import Erema from './Components/Erema';
+import ScrollToTop from './Components/ScrollToTop';
 
 
 // This is where the main application will be rendered from
