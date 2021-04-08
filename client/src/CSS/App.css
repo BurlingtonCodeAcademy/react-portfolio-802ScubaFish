@@ -1175,6 +1175,12 @@ the example below it will set these styles at 750px or smaller  */
     font-size: 16px;
 }
 
+.centerFormPop {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 @media only screen and (max-width: 750px) {
     #formContainer {
         margin-top: 5vh;

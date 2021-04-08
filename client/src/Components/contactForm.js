@@ -31,8 +31,8 @@ export default function ContactUs() {
       <>
         <div id="formContainer">
             {/* Page Headers */}
-            <h1 id='center'>Contact Me</h1>
-            <h3 id='center'> Please Provide as much Information as possible with your request</h3>
+            <h1 className='centerFormPop'>Contact Me</h1>
+            <h3 className='centerFormPop'> Please Provide as much Information as possible with your request.</h3>
             {/* Contact Form */}
             <form className="contact-form" onSubmit={sendEmail}>
                 <label>Name</label>
