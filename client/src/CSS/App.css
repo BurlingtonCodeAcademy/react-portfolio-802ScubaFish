@@ -63,7 +63,6 @@ body {
 }
 
 #alignLeft {
-    /* padding-right: 50%; */
     padding-left: 3%;
     width: 75%;
 }
@@ -91,6 +90,7 @@ body {
 @media only screen and (max-width: 1350px) {
     #alignLeft {
         width: 50%;
+        padding-right: 22%;
     }
 }
 
