@@ -63,15 +63,15 @@ body {
 }
 
 #alignLeft {
-    padding-right: 50%;
+    /* padding-right: 50%; */
     padding-left: 3%;
-    width: 25%;
+    width: 75%;
 }
 
 #alignRight {
     display: flex;
     justify-content: space-evenly;
-    width: 75%;
+    width: 50%;
 
 }
 
@@ -87,6 +87,13 @@ body {
 #turqColor {
     color: rgb(49, 204, 189);
 }
+
+@media only screen and (max-width: 1350px) {
+    #alignLeft {
+        width: 50%;
+    }
+}
+
 
 /* Menu Icon Styling Here -------------------------------*/
 
@@ -104,9 +111,6 @@ body {
     -o-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     cursor: pointer;
-  }
-  
-  #nav-icon2 {
   }
   
   #nav-icon2 span {
@@ -823,7 +827,7 @@ the example below it will set these styles at 750px or smaller  */
 
 /* Gallery Mobile Friendly Version Here ----------------- */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1200px) {
     
     .App{
         transform: scale(.5);
