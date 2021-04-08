@@ -71,6 +71,9 @@ function Projects() {
                 <a className='projectLinks' href='https://github.com/BurlingtonCodeAcademy/tic-tac-toe-sean-christian' target="_blank" rel="noopener noreferrer"><h3 className='center'>Tic Tac Toe</h3><h5 className='center'>Play Tic-Tac-Toe Against a Friend or Beat The Computer!</h5></a>
                 </div>
             </div>
+
+            <h3 id='center'>Like what you see?</h3>
+            <Link className='contactMeLink' id='center' to='/contact-me'>Fill out this form!</Link>
         </div>
     )
 }

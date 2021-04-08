@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import profile from '../Images/MainProfImageTwo.jpg';
 import emailButton from '../Images/footerlink-email(1).png';
 import facebookButton from '../Images/footerlink-facebook(1).png';
@@ -67,7 +68,8 @@ function EmailModal(props) {
     return (
         <div id='emailDisplay'>
             <h1>My Personal Email Address is : CHRISTIANRDOW@GMAIL.COM </h1>
-            <h2>Feel free to contact me at any time.</h2>
+            <h2>Feel free to contact me at any time. Or,</h2>
+            <Link className='contactMeLinkHome' to='/contact-me'>Fill out this form!</Link>
             <h3>I look forward to speaking with you!</h3>
             <h3>I can also be reached at :</h3>
             <h3>(802) 735 3393</h3>

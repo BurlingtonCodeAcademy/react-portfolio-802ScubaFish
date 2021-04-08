@@ -336,7 +336,7 @@ the example below it will set these styles at 750px or smaller  */
     border-radius: 20px;
 }
 
-#emailDisplay > h1, #emailDisplay > h2, #emailDisplay > h3, #emailDisplay > h5 {
+#emailDisplay > h1, #emailDisplay > h2, #emailDisplay > h3, #emailDisplay > h5, #emailDisplay > .contactMeLinkHome {
     padding-left: 5%;
 }
 
@@ -716,7 +716,6 @@ the example below it will set these styles at 750px or smaller  */
 .pageText2 {
     margin-top: 2vh;
     font-size: 60%;
-    margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 750px) {
@@ -1032,7 +1031,7 @@ the example below it will set these styles at 750px or smaller  */
     flex-direction: column;
     position: absolute;
     top: 25%;
-    height: 28vh;
+    height: 35vh;
     width: 50vw;
     background:rgb(20, 20, 20, .95);
     color: white;
@@ -1059,7 +1058,7 @@ the example below it will set these styles at 750px or smaller  */
     .popup {
         top: 15%;
         width: 95vw;
-        height: 50vh;
+        height: 60vh;
         line-height: 1.5;
     }
     
@@ -1069,3 +1068,130 @@ the example below it will set these styles at 750px or smaller  */
     }
 }
 
+/* Contact Me Form & Link Styling */
+
+#formContainer {
+    margin-top: 10vh;
+}
+
+.contactMeLinkHome {
+    text-decoration: underline;
+    color: rgb(49, 204, 189);
+    text-shadow: none;
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.contactMeLink {
+    text-decoration: underline;
+    color: rgb(49, 204, 189);
+    text-shadow: none;
+    font-size: 140%;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.contactMeLinkPopup {
+    text-decoration: underline;
+    color: rgb(49, 204, 189);
+    text-shadow: none;
+    font-size: 85%;
+    font-weight: bold;
+    margin-bottom: 2vh;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form > input, .contact-form > textarea {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 25%;
+}
+
+.contact-form > input[type=text], .contact-form > textarea, .contact-form > input[type=email], .contact-form > input[type=tel]{
+    background-color: rgb(49, 204, 189);
+    color: white;
+  }
+
+  .contact-form > label {
+      margin-top: 2vh;
+  }
+
+  .contact-form > input[type=submit] {
+      margin-top: 2vh;
+      width: 10vw;
+      transition-duration: .25s;
+  }
+
+  .contact-form > input[type=submit]:hover {
+    background-color: rgb(49, 204, 189);
+  }
+
+  .formPop {
+    position: absolute;
+    top: 25vh;
+    right: 25vw;
+    width: 50vw;
+    height: 25vh;
+    background:rgb(20, 20, 20, .95);
+    color: white;
+    border-radius: 40px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #formPopButton {
+    background-color: rgb(235, 138, 11);
+    border: none;
+    color: whitesmoke;
+    padding: 2px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin-top: 2vh;
+}
+
+#formPopButton:hover {
+    background-color: rgb(49, 204, 189);
+    border: none;
+    color: rgb(80, 80, 80);
+    transform: scale(1.1, 1.1);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 750px) {
+    #formContainer {
+        margin-top: 5vh;
+        padding: 0 15px 0 15px; 
+    }
+
+    .contact-form > input, .contact-form > textarea {
+        width: 100%;
+    }
+
+    .contact-form > input[type="submit"] {
+        width: 50vw;
+    }
+
+    .formPop {
+        right:0%;
+        width: 100%;
+        height: 35vh;
+    }
+    .formPop > h1, .formPop > h2 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

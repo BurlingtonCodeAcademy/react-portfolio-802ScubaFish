@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import ResumePage1 from '../Images/Resume-Page1.png';
 import ResumePage2 from '../Images/Resume-Page2.png';
 
@@ -21,7 +22,11 @@ function Experience() {
                 <p className='pageText1'>(Page 1)</p>
                 <a href='https://www.linkedin.com/in/christian-dow/' target="_blank" rel="noopener noreferrer"><img className='resumeImage2' src={ResumePage2} alt="Resume Page 2"></img></a>
                 <p className='pageText2'>(Page 2)</p>
+
+                <h3 id='center'>Like what you see?</h3>
+                <Link className='contactMeLink' id='center' to='/contact-me'>Fill out this form!</Link>
             </div>
+            
        </>
     )
 }

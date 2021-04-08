@@ -23,7 +23,7 @@ export default function HubSpot() {
 
             {/* Projects Page Button */}
             <Link className='projectButton' to='/projects'><h3 className='center'>Switch To</h3><h3 className='center'>Development Projects</h3></Link>
-
+            
             {/* The Top Rows */}
             <div className='rows'>
                 {/* Beeswax Migration Project Here */}
@@ -81,6 +81,9 @@ export default function HubSpot() {
                     <img className='projectImg' src={cmsDevPracticum} alt="Project Screen Shot" />
                     <a className='projectLinks' href='http://hubspot-developers-16tv3r8-8374954.hs-sites.com/my-cool-practicum' target="_blank" rel="noopener noreferrer"><h3 className='center'>My HubSpot CMS Developer Practicum Submission</h3><h5 className='center'>A Site Built Following Hubspot's CMS Practicum Standards to Prove My Knowledge of Their CMS Platform</h5><h5 className='center'  id='hubspotOrange'>Graded by Hubspot and Passed after first submission September 2020. See the Certification on my LinkedIn!</h5></a>
                 </div>
+
+                <h3 id='center'>Like what you see?</h3>
+                <Link className='contactMeLink' id='center' to='/contact-me'>Fill out this form!</Link>
             </div>
         </div>
     )

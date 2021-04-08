@@ -12,6 +12,7 @@ import HubSpot from './Components/HubSpot';
 import Teknologize from './Components/Teknologize';
 import Erema from './Components/Erema';
 import ScrollToTop from './Components/ScrollToTop';
+import ContactForm from './Components/contactForm';
 
 
 // This is where the main application will be rendered from
@@ -33,6 +34,7 @@ class App extends React.Component {
           <Route path='/hubspot' component={HubSpot} />
           <Route path='/teknologize' component={Teknologize} />
           <Route path='/erema' component={Erema} />
+          <Route path='/contact-me' component={ContactForm} />
         </Switch>
 
       </div>
