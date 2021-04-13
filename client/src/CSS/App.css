@@ -292,7 +292,7 @@ the example below it will set these styles at 750px or smaller  */
 
 #socialMediaImgs {
     display: flex;
-    width: 15vw;
+    width: 22vw;
     justify-content: space-between;
     margin-top: 1%;
 }
@@ -342,7 +342,7 @@ the example below it will set these styles at 750px or smaller  */
     border-radius: 20px;
 }
 
-#emailDisplay > h1, #emailDisplay > h2, #emailDisplay > h3, #emailDisplay > h5, #emailDisplay > .contactMeLinkHome {
+#emailDisplay > h1, #emailDisplay > h2, #emailDisplay > h3, #emailDisplay > h4, #emailDisplay > .contactMeLinkHome {
     padding-left: 5%;
 }
 
@@ -1084,7 +1084,7 @@ the example below it will set these styles at 750px or smaller  */
     text-decoration: underline;
     color: rgb(49, 204, 189);
     text-shadow: none;
-    font-size: 140%;
+    font-size: 150%;
     font-weight: bold;
 }
 

@@ -3,6 +3,7 @@ import profileImg from '../Images/AboutProfileImageTwo.jpg';
 
 // This Handles The About Page Component
 function About() {
+
     return (
 
         <div id='flexContainer'>
@@ -22,12 +23,12 @@ function About() {
                 <div id='subContainer'>
                     <div id='leftColumn'>
                         <h4><span className='subContainerTitles'>Name : </span> Christian Dow</h4>
-                        <h4><span className='subContainerTitles'>Age : </span> 26 Years</h4>
-                        <h4><span className='subContainerTitles'>Email : </span> ChiristianRDow@Gmail.com</h4>
+                        <h4><span className='subContainerTitles'>Age : </span> {(new Date().getFullYear() - 1994)} Years</h4>
+                        <h4><span className='subContainerTitles'>Email : </span> ChristianRDow@Gmail.com</h4>
                     </div>
                     <div id='rightColumn'>
                         <h4><span className='subContainerTitles'>Phone : </span> (802) 735-3393</h4>
-                        <h4><span className='subContainerTitles'>Address : </span> Milton, VT 05468</h4>
+                        <h4><span className='subContainerTitles'>Address : </span> Milton, Vermont 05468</h4>
                         <h4><span className='subContainerTitles'>Hobby : </span> Photography, Auto-X,<br />Hiking, and Videogaming</h4>
                     </div>
                 </div>

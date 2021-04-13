@@ -71,10 +71,8 @@ function EmailModal(props) {
             <h2>Feel free to contact me at any time. Or,</h2>
             <Link className='contactMeLinkHome' to='/contact-me'>Fill out this form!</Link>
             <h3>I look forward to speaking with you!</h3>
-            <h3>I can also be reached at :</h3>
-            <h3>(802) 735 3393</h3>
-            <h5>Best,</h5>
-            <h5>Christian</h5>
+            <h4>Best,</h4>
+            <h4>Christian</h4>
             <button id='modalButton' onClick={props.handleCancel}>Close</button>
         </div>
     );
