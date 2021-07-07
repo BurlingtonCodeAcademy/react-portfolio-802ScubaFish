@@ -1,0 +1,5 @@
+http://www.localhost:3000/
+http://www.localhost:3000/home
+http://www.localhost:3000/about
+http://www.localhost:3000/projects
+http://www.localhost:3000/experience
