@@ -31,7 +31,7 @@ export default function HubSpot() {
                 {/* Impulse Career Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={Impulse} alt="Project Screen Shot" />
-                    <Link className='projectLinks' to='https://impulsecreative.com/company'><h3 className='center'>Impulse Creative Front End Developer</h3><h5 className='center'>Web Developer for Impulse Creative</h5><h5 className='center' id='hubspotOrange'>HubSpot Websites, Themes & Templates. API Integrations, Custom Objects, HubDB, and other awesome CMS applications.</h5></Link>
+                    <a className='projectLinks' to='https://impulsecreative.com/company'><h3 className='center'>Impulse Creative Front End Developer</h3><h5 className='center'>Web Developer for Impulse Creative</h5><h5 className='center' id='hubspotOrange'>HubSpot Websites, Themes & Templates. API Integrations, Custom Objects, HubDB, and other awesome CMS applications.</h5></a>
                 </div>
 
                 {/* Beeswax Migration Project Here */}
