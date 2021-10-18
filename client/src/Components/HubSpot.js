@@ -8,7 +8,8 @@ import victoryHemp from '../Images/VictoryHempSS.png';
 import teknologizeSS from '../Images/TeknologizeSS.png';
 import eremaSS from '../Images/EremaSS.png';
 import packageAwareSS from '../Images/PackageAwareSS.png';
-import iwd from '../Images/IWD-HomePage.png'
+import iwd from '../Images/IWD-HomePage.png';
+import Impulse from '../Images/file-339656381.png';
 
 
 export default function HubSpot() {
@@ -26,6 +27,13 @@ export default function HubSpot() {
             
             {/* The Top Rows */}
             <div className='rows'>
+
+                {/* Impulse Career Here */}
+                <div className='halfWidth pushImg'>
+                    <img className='projectImg' src={Impulse} alt="Project Screen Shot" />
+                    <Link className='projectLinks' to='https://impulsecreative.com/company'><h3 className='center'>Impulse Creative Front End Developer</h3><h5 className='center'>Web Developer for Impulse Creative</h5><h5 className='center' id='hubspotOrange'>HubSpot Websites, Themes & Templates. API Integrations, Custom Objects, HubDB, and other awesome CMS applications.</h5></Link>
+                </div>
+
                 {/* Beeswax Migration Project Here */}
                 <div className='halfWidth pushImg'>
                     <img className='projectImg' src={beeswaxSS} alt="Project Screen Shot" />
